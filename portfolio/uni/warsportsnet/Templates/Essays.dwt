@@ -1,0 +1,123 @@
+<html>
+<head>
+<!-- #BeginEditable "doctitle" -->
+<title>TotalChange - </title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- TotalChange, a stage for the work of students of BSc(Hons) MediaLab Arts at Plymouth University -->
+<meta name="description" content="TotalChange - A stage for students of BSc(Hons) MediaLab Arts at Plymouth University, UK.">
+<meta name="keywords" content="totalchange, new media, mla, medialab arts, ralph jones, simon wainwright, computer art, generative design, generative art, uk">
+<link rel="stylesheet" href="../docs/styles.css" Type="text/css">
+<link rel="shortcut icon" href="http://www.totalchange.com/favicon.ico">
+<!-- #BeginEditable "javascript" -->
+<!-- #EndEditable -->
+</head>
+
+<body bgcolor="#FFFFFF" background="../images/totalchange.gif" text="#000000" link="#666666" vlink="#666666" alink="#999999">
+<div align="center"> 
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="70%"> 
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="50%" valign="bottom"> 
+              <table width="50%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><img src="../images/shim.gif" width="8" height="1"></td>
+                  <td> 
+                    <div align="center">
+                      <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td> 
+                            <table border="0" cellspacing="0" cellpadding="0">
+                              <tr> 
+                                <td><img src="../images/blacktopleft.gif" width="8" height="8"></td>
+                              </tr>
+                              <tr bgcolor="#000000"> 
+                                <td><img src="../images/shim.gif" width="1" height="15"></td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td bgcolor="#000000"><font color="#FFFFFF"><a href="../index.html" class="mainnav">Main Home</a> | <!-- #BeginEditable "links" --><a href="javascript:history.back(1);" class="mainnav">Back</a><!-- #EndEditable --></font></td>
+                          <td> 
+                            <table border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td><img src="../images/blacktopright.gif" width="8" height="8"></td>
+                              </tr>
+                              <tr bgcolor="#000000"> 
+                                <td><img src="../images/shim.gif" width="1" height="15"></td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="50%" valign="bottom"> 
+              <div align="right">
+                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                  <tr> 
+                    <td> 
+                      <div align="center"><img src="../images/logo.gif" width="210" height="36" alt="TotalChange, a stage for the work of students of BSc(Hons) MediaLab Arts at Plymouth University"></div>
+                    </td>
+                    <td><img src="../images/shim.gif" width="8" height="1"></td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr> 
+      <td width="70%"> 
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="8"><img src="../images/whitetopleft.gif" width="8" height="8"></td>
+            <td bgcolor="#FFFFFF" width="100%"><img src="../images/shim.gif" width="400" height="8"></td>
+            <td width="8"><img src="../images/whitetopright.gif" width="8" height="8"></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr> 
+      <td valign="top" width="70%" bgcolor="#FFFFFF"> 
+        <div align="center"> 
+          <table width="90%" border="0" cellspacing="0" cellpadding="0">
+            <tr> 
+              <td width="10"><img src="../images/shim.gif" width="10" height="20"></td>
+              <td width="100%"></td>
+              <td width="10"><img src="../images/shim.gif" width="10" height="20"></td>
+            </tr>
+            <tr> 
+              <td width="10"></td>
+              <td width="100%"><!-- #BeginEditable "main" -->&nbsp;<!-- #EndEditable --></td>
+              <td width="10"></td>
+            </tr>
+            <tr> 
+              <td width="10"><img src="../images/shim.gif" width="10" height="20"></td>
+              <td width="100%"></td>
+              <td width="10"><img src="../images/shim.gif" width="10" height="20"></td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+    <tr> 
+      <td valign="top" width="70%"> 
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="8"><img src="../images/whitebottomleft.gif" width="8" height="8"></td>
+            <td bgcolor="#FFFFFF" width="100%"><img src="../images/shim.gif" width="1" height="8"></td>
+            <td width="8"><img src="../images/whitebottomright.gif" width="8" height="8"></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

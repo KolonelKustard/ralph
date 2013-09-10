@@ -1,0 +1,208 @@
+<html>
+<!-- #BeginTemplate "/Templates/Main.dwt" -->
+<head>
+<!-- #BeginEditable "doctitle" -->
+<title>TotalChange - Nostalgia Network - Technology</title>
+<!-- #EndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- TotalChange, a stage for the work of students of BSc(Hons) MediaLab Arts at Plymouth University -->
+<meta name="description" content="TotalChange - A stage for students of BSc(Hons) MediaLab Arts at Plymouth University, UK.">
+<meta name="keywords" content="totalchange, new media, mla, medialab arts, ralph jones, simon wainwright, computer art, generative design, generative art, uk">
+<link rel="stylesheet" href="styles.css" Type="text/css">
+<link rel="shortcut icon" href="http://www.totalchange.com/favicon.ico">
+<!-- #BeginEditable "javascript" --> <!-- #EndEditable -->
+</head>
+<body bgcolor="#FFFFFF" background="../images/totalchange.gif" text="#000000" link="#666666" vlink="#666666" alink="#999999">
+<div align="center">
+  <table width="90%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="15%"></td>
+      <td width="70%">
+        <div align="right">
+          <table border="0" cellspacing="0" cellpadding="0" width="50%">
+            <tr>
+              <td>
+                <div align="center"><img src="../images/logo.gif" width="210" height="36" alt="TotalChange, a stage for the work of students of BSc(Hons) MediaLab Arts at Plymouth University"></div>
+              </td>
+              <td><img src="../images/shim.gif" width="8" height="1"></td>
+            </tr>
+          </table>
+        </div>
+      </td>
+      <td width="15%"></td>
+    </tr>
+    <tr>
+      <td width="15%"></td>
+      <td width="70%">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8"><img src="../images/whitetopleft.gif" width="8" height="8"></td>
+            <td bgcolor="#FFFFFF" width="100%"><img src="../images/shim.gif" width="400" height="8"></td>
+            <td width="8"><img src="../images/whitetopright.gif" width="8" height="8"></td>
+          </tr>
+        </table>
+      </td>
+      <td width="15%"></td>
+    </tr>
+    <tr>
+      <td valign="top" width="15%"><!-- #BeginLibraryItem "/Library/Navigation.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="3"><img src="../images/shim.gif" width="1" height="20"></td>
+  </tr>
+  <tr>
+    <td width="8" height="8"><img src="../images/blacktopleft.gif" width="8" height="8"></td>
+    <td width="100%" height="8" bgcolor="#000000"><img src="../images/shim.gif" width="1" height="8"></td>
+    <td width="8" height="8" bgcolor="#000000"><img src="../images/shim.gif" width="8" height="8"></td>
+  </tr>
+  <tr>
+    <td width="8" bgcolor="#000000">&nbsp;</td>
+    <td width="100%" bgcolor="#000000" nowrap><a href="http://www.totalchange.com/nostalgianet" class="mainnav">Go Online</a></td>
+    <td width="8" bgcolor="#000000">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="8" height="8"><img src="../images/blackbottomleft.gif" width="8" height="8"></td>
+    <td width="100%" height="8" bgcolor="#000000"><img src="../images/shim.gif" width="1" height="8"></td>
+    <td width="8" height="8" bgcolor="#000000"><img src="../images/shim.gif" width="8" height="8"></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --></td>
+      <td valign="top" width="70%" bgcolor="#FFFFFF">
+        <div align="center">
+          <table width="90%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="10"><img src="../images/shim.gif" width="10" height="20"></td>
+              <td width="100%"></td>
+              <td width="10"><img src="../images/shim.gif" width="10" height="20"></td>
+            </tr>
+            <tr>
+              <td width="10"></td>
+              <td width="100%"><!-- #BeginEditable "main" -->
+                <h1 align="center">Nostalgia Network - Technology</h1>
+                <p class="mainbody">The Nostalgia Network is a Java Application
+                  using Microsoft Windows specific audio capture routines, Quicktime
+                  for Java MIDI playback (<a href="http://www.quicktime.com">www.quicktime.com</a>)
+                  and the Alice Bot version B for Java (<a href="http://www.alicebot.org">www.alicebot.org</a>).</p>
+                <p class="mainbody">On starting the application, it is necessary
+                  to callibrate it to the environment. The minimum and maximum
+                  frequencies that it will listen out for must be set up. Typically
+                  this is achieved by one machine playing its minimum frequency
+                  whilst the other listens, and vice versa.</p>
+                <p class="mainbody">Once set up, the process is begun by human
+                  input starting off a conversation. Type a topic into the input
+                  text box and press return. This starts a conversation between
+                  the two machines.</p>
+                <p align="center"><img src="../images/screenie1.gif" width="300" height="181"></p>
+                <p class="mainbody">The conversation is implemented by a 2-way
+                  process of audio generation and reconstruction. One machine
+                  generates and plays music as a notational representation of
+                  text. The other machine listens for frequency changes in the
+                  audio and reconstructs the text. When an entire line of text
+                  is received, the listening machine then makes a response using
+                  the Alice Bot and generates an audio representation of that
+                  text. The loop is then endless and will only finish when both
+                  machines run out of things to say or the audio signal is disrupted.</p>
+                <p class="mainbody">Audio is played by calculating the correct
+                  MIDI note for Quicktime to play and then playing it for the
+                  specified duration. The correct note is calculated by using
+                  a predefined minimum and maximum note range.</p>
+                <p class="mainbody">Audio is listened to by a mcrophone plugged
+                  into the machine. The audio signal is processed as it enters
+                  the computer to discover the frequency of the audio (using a
+                  Fast Fourier Transform). The note being listened to is calculated
+                  by measuring the duration of a particular frequency. If the
+                  frequency and duration of frequency are in the range between
+                  minimum and maximum frequencies and also apply to a known note,
+                  then that is interpreted back into data.</p>
+                <p class="mainbody">To hear and see the results of using Nostalgia
+                  Network, please visit the <a href="results.htm">Results page</a>.</p>
+                <!-- #EndEditable --></td>
+              <td width="10"></td>
+            </tr>
+            <tr>
+              <td width="10"><img src="../images/shim.gif" width="10" height="20"></td>
+              <td width="100%"></td>
+              <td width="10"><img src="../images/shim.gif" width="10" height="20"></td>
+            </tr>
+          </table>
+        </div>
+      </td>
+      <td valign="top" width="15%"><!-- #BeginEditable "subnav" --><!-- #BeginLibraryItem "/Library/NostalgiaNet.lbi" -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="3"><img src="../images/shim.gif" width="1" height="20"></td>
+  </tr>
+  <tr>
+    <td width="8" height="8" bgcolor="#000000"><img src="../images/shim.gif" width="8" height="8"></td>
+    <td width="100%" height="8" bgcolor="#000000"><img src="../images/shim.gif" width="1" height="8"></td>
+    <td width="8" height="8"><img src="../images/blacktopright.gif" width="8" height="8"></td>
+  </tr>
+  <tr>
+    <td width="8" bgcolor="#000000">&nbsp;</td>
+    <td width="100%" bgcolor="#000000" nowrap>
+      <div align="right"><a href="../index.html" class="mainnav">Nostalgia
+        Net Home</a></div>
+    </td>
+    <td width="8" bgcolor="#000000">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="8" bgcolor="#000000">&nbsp;</td>
+    <td width="100%" bgcolor="#000000" nowrap>
+      <div align="right"><a href="application.htm" class="mainnav">Application</a></div>
+    </td>
+    <td width="8" bgcolor="#000000">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="8" bgcolor="#000000">&nbsp;</td>
+    <td width="100%" bgcolor="#000000" nowrap>
+      <div align="right"><a href="technology.htm" class="mainnav">Technology</a></div>
+    </td>
+    <td width="8" bgcolor="#000000">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="8" bgcolor="#000000">&nbsp;</td>
+    <td width="100%" bgcolor="#000000" nowrap>
+      <div align="right"><a href="results.htm" class="mainnav">Results</a></div>
+    </td>
+    <td width="8" bgcolor="#000000">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="8" bgcolor="#000000">&nbsp;</td>
+    <td width="100%" bgcolor="#000000" nowrap>
+      <div align="right"><a href="conclusions.htm" class="mainnav">Conclusions</a></div>
+    </td>
+    <td width="8" bgcolor="#000000">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="8" bgcolor="#000000">&nbsp;</td>
+    <td width="100%" bgcolor="#000000" nowrap>
+      <div align="right"><a href="download.htm" class="mainnav">Download</a></div>
+    </td>
+    <td width="8" bgcolor="#000000">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="8" height="8" bgcolor="#000000"><img src="../images/shim.gif" width="8" height="8"></td>
+    <td width="100%" height="8" bgcolor="#000000"><img src="../images/shim.gif" width="1" height="8"></td>
+    <td width="8" height="8"><img src="../images/blackbottomright.gif" width="8" height="8"></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --><!-- #EndEditable --></td>
+    </tr>
+    <tr>
+      <td width="15%"></td>
+      <td valign="top" width="70%">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8"><img src="../images/whitebottomleft.gif" width="8" height="8"></td>
+            <td bgcolor="#FFFFFF" width="100%"><img src="../images/shim.gif" width="1" height="8"></td>
+            <td width="8"><img src="../images/whitebottomright.gif" width="8" height="8"></td>
+          </tr>
+        </table>
+      </td>
+      <td width="15%"></td>
+    </tr>
+  </table>
+</div>
+</body>
+<!-- #EndTemplate -->
+</html>
