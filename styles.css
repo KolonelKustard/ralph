@@ -1,0 +1,76 @@
+html, body {
+	background: #000047;
+	margin: 0;
+	padding: 0;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, sans-serif;
+}
+
+#bgTopLeft {
+	width: 488px;
+	background: top left no-repeat url(./images/bgtopleft.png);
+	margin: 0 auto;
+}
+
+#bgTopRight {
+	background: top right no-repeat url(./images/bgtopright.png);
+}
+
+#bgBottomRight {
+	background: bottom right no-repeat url(./images/bgbottomright.png);
+}
+
+#bgBottomLeft {
+	background: bottom left no-repeat url(./images/bgbottomleft.png);
+	padding: 35px 44px;
+}
+
+#profile {
+	background: #FFF;
+}
+
+h1 {
+	margin: 0;
+	padding: 0.2em 0.5em;
+}
+
+p {
+	background: top left no-repeat url(./images/meandrio.jpg);
+	margin: 0;
+	padding: 170px 1em 0 1em;
+}
+
+ul#itsAllAboutMe {
+	list-style: none outside none;
+	margin: 0;
+	padding: 1em 0;
+}
+
+ul#itsAllAboutMe li {
+	margin: 0.2em 0 0.2em 1em;
+	padding: 0.2em 0.5em 0.2em 40px;
+	min-height: 30px;
+}
+
+#linkedIn {
+	background: left no-repeat url(./images/linkedin.png);
+}
+
+#facebook {
+	background: left no-repeat url(./images/facebook.png);
+}
+
+#googlePlus {
+	background: left no-repeat url(./images/googleplus.png);
+}
+
+#twitter {
+	background: left no-repeat url(./images/twitter.png);
+}
+
+#sourceForge {
+	background: left no-repeat url(./images/sourceforge.png);
+}
+
+#blogger {
+	background: left no-repeat url(./images/blogger.png);
+}
