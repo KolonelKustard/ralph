@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://docbook.org/ns/docbook http://docbook.org/xml/5.0/xsd/docbook.xsd"
+	version="5.0" xml:lang="en">
+
+	<info>
+		<title>BitRot Media Player</title>
+	</info>
+	<para>BitRot Media Player is an application that translates the process
+		of degradation from the actual to the virtual.
+	</para>
+	<para>
+		<imagedata fileref="images/bitrotsmall.jpg" />
+	</para>
+	<para>Media such as vinyl and magnetic tape all had their flaws. By
+		storing data in analogue form on analogue media, degradation begins to
+		distort and fragment content. Digital media such as CD's are reputed
+		to be free from degradation and decomposition. Digital data stored on
+		impervious media. But is this completely true?
+	</para>
+	<para>The BitRot Media Player translates the process a vinyl record
+		undergoes to the virtual space. Now, when video and audio is viewed
+		and listened to, a certain amount of the original will be lost through
+		degradation.</para>
+</chapter>
