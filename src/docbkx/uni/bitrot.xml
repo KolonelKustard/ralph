@@ -9,9 +9,7 @@
 	<para>BitRot Media Player is an application that translates the process
 		of degradation from the actual to the virtual.
 	</para>
-	<para>
-		<imagedata fileref="images/bitrotsmall.jpg" />
-	</para>
+	<imagedata fileref="images/bitrotsmall.jpg" />
 	<para>Media such as vinyl and magnetic tape all had their flaws. By
 		storing data in analogue form on analogue media, degradation begins to
 		distort and fragment content. Digital media such as CD's are reputed
@@ -21,5 +19,137 @@
 	<para>The BitRot Media Player translates the process a vinyl record
 		undergoes to the virtual space. Now, when video and audio is viewed
 		and listened to, a certain amount of the original will be lost through
-		degradation.</para>
+		degradation.
+	</para>
+
+	<section>
+		<title>About the BitRot Media Player</title>
+		<para>
+			Here are 2 descriptions taken from The Jargon File (
+			<link xlink:href="http://www.science.uva.nl/%7Emes/jargon/">
+				http://www.science.uva.nl/~mes/jargon/
+			</link>
+			):
+		</para>
+		<orderedlist>
+			<listitem>
+				<para>
+					<emphasis>bit rot:</emphasis>
+					n. [common] Also bit decay. Hypothetical disease the existence of
+					which has been deduced from the observation that unused programs or
+					features will often stop working after sufficient time has passed,
+					even if `nothing has changed'. The theory explains that bits decay
+					as if they were radioactive. As time passes, the contents of a file
+					or the code in a program will become increasingly garbled.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					<emphasis>software rot:</emphasis>
+					n. Term used to describe the tendency of software that has not been
+					used in a while to lose; such failure may be semi-humorously
+					ascribed to bit rot. More commonly, `software rot' strikes when a
+					program's assumptions become out of date. If the design was
+					insufficiently robust, this may cause it to fail in mysterious
+					ways.
+				</para>
+			</listitem>
+		</orderedlist>
+		<para>I hoped to create a virtual illustration of one of two
+			principles that only apply to the actual. Decay and degradation
+			(supposedly) cannot occur in the virtual, as many failsafes built
+			into hardware prevent such an occurence. However in the actual,
+			apples rot, and VCR cassettes degrade.
+		</para>
+		<para>An apple can be used to represent the idea of decay. If left for
+			a sufficient amount of time, an apple will begin to rot. It starts to
+			lose whatever it was that made it an apple, until it no longer is an
+			apple.
+		</para>
+		<para>A VCR Cassette has no idea of decay. It is made of plastics
+			intended to make it durable, making its rate of decay greater than a
+			life span. It does however degrade. Over time, wear and tear through
+			its use will cause the VCR cassette to begin to lose the information
+			it contains. Whilst the cassette will undoubtedly remain a cassette,
+			the information it contains will ultimately (through use) degrade
+			until it no longer exists.
+		</para>
+		<para>It is the process of degradation therefore that I am attempting
+			to translate from the actual to the virtual. If in the virtual, by
+			re-using the same area of a disk, degradation were to occur. The
+			degradation would not be in the virtual representation of the file
+			itself, but rather in the physical collection of 1's and 0's that
+			make up the file. Through use, the 1's would be lost as electrical
+			circuits failed and degraded. The BitRot Media Player mimics this
+			behaviour as an illustration of the process.
+		</para>
+		<para>As a video is played in the BitRot Media Player, 1's are lost
+			from the sequence of bits that make up the file. Technically the
+			application measures the period of the file that is played, and runs
+			the degradation process on that portion. Therefore, every time a part
+			of a video is watched, it is also lost permanently.
+		</para>
+	</section>
+
+	<section>
+		<title>Consequences Through use of the BitRot Media Player</title>
+		<para>Using the BitRot Media Player as a replacement to the
+			traditional Quicktime Movie Player will require a different outlook
+			on how media is stored in the virtual space. Similar to how we treat
+			VCR cassettes, the original of the media will need to be kept and
+			never played, as a copy degrades through use. When authoring a VCR
+			cassette, the master copy serves the same purpose.
+		</para>
+		<para>In this case, the translation of the principles and processes of
+			degradation have been faithfully replicated in the BitRot Media
+			Player. Where the player fails is in the principles of the virtual.
+			In certain ways, the virtual is already a place of degradation. When
+			creating a word processor document, the author is encouraged to keep
+			a backup of the document. The reason typically is in case of a state
+			of decay in the storage device. By keeping a backup copy on a
+			seperate storage medium, a failsafe is created against any accidental
+			corruption through decay of the originals storage device. More
+			importantly though (in relation to BitRot Media Player), a backup is
+			kept in case of degradation of the document through the author's
+			error. The author can decide to revert to the backup copy of the
+			document if they decide they preffered the older text to whatever
+			they have just created. In a way, this is degredation of the quality
+			and therefore content of the document.
+		</para>
+		<para>So how does this affect the BitRot Media Player? If the virtual
+			already contains many states of decay, what purpose does the BitRot
+			player have? Perhaps as an illustration and a reminder of the
+			importance of degradation, the BitRot player serves a purpose.
+		</para>
+		<para>Interestingly, the BitRot player also displays design principles
+			of virtual media in a very clear way. Quicktimes .mov and Microsoft's
+			.avi file formats are incredibly sensitive to discrepancies in the
+			structure of the file. The slightest amount of degradation can render
+			the file unviewable. Media intended for distributed release, such as
+			the MPEG's 'streaming' design structure allow .mpg's and .mp3's to be
+			degraded to a substantially greater level before they become both
+			noticeably poorer in quality or unplayable. This is an interesting
+			design concept as MPEG is designed to withstand moderately intense
+			degradation of its structure. This is perhaps an indication of an
+			acknowledgement of degeradation in storage or transfer in the virtual
+			space.
+		</para>
+	</section>
+
+	<section>
+		<title>Download BitRot Media Player</title>
+		<para>Unfortunately I haven't got a reliable install method for the
+			compiled Media Player. I will attempt to have a compiled version
+			ready by the end of June. The reason for this is that the BitRot
+			Media Player requires that Quicktime and Quicktime for Java be
+			installed. I just haven't found a reliable method of ensuring both
+			are installed (in a cross platform way).</para>
+		<para>
+			The source code is available however by
+			<link
+				xlink:href="http://www.totalchange.com/files/bitrotmedia/31052001/bitrot.zip">clicking here</link>
+			. This code is given as is, and no licence or acceptance of blame etc
+			for misuse is granted.
+		</para>
+	</section>
 </chapter>
