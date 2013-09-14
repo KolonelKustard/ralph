@@ -26,9 +26,9 @@
 		<title>About the BitRot Media Player</title>
 		<para>
 			Here are 2 descriptions taken from The Jargon File (
-			<link xlink:href="http://www.science.uva.nl/%7Emes/jargon/">
+			<ulink url="http://www.science.uva.nl/%7Emes/jargon/">
 				http://www.science.uva.nl/~mes/jargon/
-			</link>
+			</ulink>
 			):
 		</para>
 		<orderedlist>
@@ -145,10 +145,9 @@
 			installed. I just haven't found a reliable method of ensuring both
 			are installed (in a cross platform way).</para>
 		<para>
-			The source code is available however by
-			<link
-				xlink:href="http://www.totalchange.com/files/bitrotmedia/31052001/bitrot.zip">clicking here</link>
-			. This code is given as is, and no licence or acceptance of blame etc
+			The source code is available on
+			<ulink url="https://github.com/KolonelKustard/bitrot-media-player">GitHub</ulink>.
+			This code is given as is, and no licence or acceptance of blame etc
 			for misuse is granted.
 		</para>
 	</section>
