@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://docbook.org/ns/docbook http://docbook.org/xml/5.0/xsd/docbook.xsd"
+	version="5.0" xml:lang="en">
+
+	<info>
+		<title>Ephemeris</title>
+	</info>
+	<para>Ephemeris, defined as a diary or a journal with particular
+		relation to the positions of heavenly bodies throughout the calendar
+		year. The Ephemeris project explores our experience of time. It allows
+		us to perceive time in a non-uniform way.
+	</para>
+	<para>The city has many time based events interwoven into everyday
+		life. The events can be visualised as the time at which one leaves a
+		source and the time one arrives at a destination. For instance leaving
+		home at 8:45am to arriving at work at 8:59pm, or leaving the
+		restaurant at 9:00pm and arriving at the bench by the waters edge at
+		9:15pm.
+	</para>
+	<para>In the above examples, time was experienced on the same scale but
+		in entirely different ways. Whilst the person rushing for work
+		possibly did not notice or experience the fullness of that 15 minutes,
+		the couple going for a romantic stroll possibly experienced this time
+		as an eternity.
+	</para>
+	<para>The Ephemeris project is intended to provide control over our
+		natural passage through time. It also provides us with the means to
+		revisit lost time.
+	</para>
+
+	<section>
+		<title>Ephemeris - About</title>
+		<para>The theory of relativity states that each persons experience of
+			time is different to anothers. Whilst a sprinter may experience the
+			length of the track by concentrating on patterns of movement and
+			positions of opponents, the audience will experience this entirely
+			differently. To the audience, the race will be over almost as quickly
+			as it started, whereas the sprinter may be able to recall every
+			footstep. This difference in experience of time is found frequently,
+			and has brought about the commonly used phrase &quot;Time flies when
+			you're having fun&quot;.</para>
+		<para>The Ephemeris project intends to make the passage of time
+			controllable. It works by providing control of the speed of time in a
+			shared environment.
+		</para>
+		<imagedata fileref="images/game1.jpg" />
+		<para>When entering the Ephemeris environment, a cityscape is
+			provided. A city is a place in which strangers are more common than
+			friends. As such, it is possible to walk through the city without
+			ever knowing others experiences of the same events. Whilst a lone
+			person waiting for an event (such as waiting for a bus) may fully
+			experience 5 minutes of time, an individual with a goal to reach an
+			event (such as somebody rushing to get to work on time) may not
+			concentrate on this same time and will therefore not experience it in
+			the same way. The two individuals may well pass one another without
+			realising they are both experiencing different time.
+		</para>
+		<para>In the same way, Ephemeris allows the visitor to experience time
+			as though it were flying by. One minute lasts one second. Another
+			visitor may be experiencing time as though they wished to see every
+			moment. In this case one minute lasts an hour. Both visitors have the
+			possibility to see one another, but both be in entirely different
+			times.
+		</para>
+	</section>
+
+	<section>
+		<title>Ephemeris - Details</title>
+		<para>The Epehemeris project is created as a Java 3D applet. Upon
+			entering Ephemeris, the visitor is assigned a timeline with the
+			standard time equal to a clock in reality. All movements are logged
+			as events in this timeline and are distributed to all others within
+			Ephemeris.
+		</para>
+		<para>The visitor can then alter their present rate of time. This is
+			equivalent to a percentage of the time of a clock in reality. So 50%
+			of time will mean that 1 second in Ephemeris is worth 2 seconds in
+			reality. To this visitor, everything else in Ephemeris will slow
+			down. To a visitor who stays at 100% of time, the other will be at
+			equal pace, and then speed up as soon as they changed to 50% of time.
+		</para>
+		<para>Because events are logged, it is also possible to experience
+			yourself in Ephemeris. If you enter Ephemeris and change time to 200%
+			of time, 1 second in Ephemeris will be equivalent to 1/2 second in
+			reality. Therefore by remaining in Ephemeris for 20 minutes in
+			reality, 40 minutes will have passed in Ephemeris. By then leaving
+			and re-entering Epehemeris, you will see the ghost of yourself in
+			Ephemeris' future.
+		</para>
+		<para>Attempting to explain Ephemeris is a lot harder than
+			experiencing it for yourself. Please visit Ephemeris and experience
+			time.
+		</para>
+	</section>
+
+	<section>
+		<title>Ephemeris - Conclusions</title>
+		<para>Currently the Ephemeris project successfully accomplishes the
+			primary goal set out in the aims of the project. That is it
+			successfully illustrates the experience of time and a change in time.
+			Unfortunately this is only successfully illustrated by presenting the
+			project with 2 machines running side by side.</para>
+		<para>In order for the project to become useful as a wider distributed
+			experience, other elements would be needed. Obvious points would be
+			that the orbiting sun would reflect the current time and therefore
+			orbit more quickly if time is being experienced at an increased rate.
+			Also a chat facility in which visitors could type text and have those
+			words appear above their character would help to illustrate the
+			passages of time. Limitations such as time and technology prevented
+			these features being added in this first release.</para>
+		<para>The project does prove that as individuals we cannot be sure
+			that we all do exist in the same time. The only way to prove one way
+			or the other would be to interrupt everybody you pass and ask them
+			what they think the time is. It also asks the question as to how much
+			control we have over our passage through time. Is there any conscious
+			decision to how quickly we perceive time? Ephemeris provides this
+			control as an experiment to see how we might react.</para>
+		<para>Initial visitors to Ephemeris are typically confused by what
+			they see. It takes some time for them to realise what they are
+			experiencing. However, in reality, they deal with the same experience
+			subconsciously. By interacting with somebody, you must both match
+			your pace through time.</para>
+		<para>As a result, the conclusions lead me to believe that it is
+			entirely possible that we all exist in different times. We then
+			synchronize our times as we interact with others around us. And
+			nobody's timeline through life is the same as anothers.</para>
+	</section>
+</chapter>
