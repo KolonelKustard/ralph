@@ -10,16 +10,20 @@
 		to fill out its form. The site offers free CGI hosting for a variety
 		of server side protocols. Once the user has filled in their details,
 		they are added to the database and enlisted to take part in the Free
-		CGI-UK project.</para>
+		CGI-UK project.
+	</para>
 	<imagedata fileref="images/screenshot1.gif" />
 	<para>The project aims to attack current mis-conceptions of Free.
 		Nothing is truely free. 2 for the price of 1 inevitably means another
 		item becomes more expensive. Free web space means forced advertising.
-		The list goes on.</para>
+		The list goes on.
+	</para>
 	<para>Free is simply a marketing tool used to entice customers into
-		inadvertantly spending money.</para>
+		inadvertently spending money.
+	</para>
 	<para>So when a user signs up for Free CGI-UK, why should anything be
-		any different? Free CGI-UK need to make money too...</para>
+		any different? Free CGI-UK need to make money too...
+	</para>
 
 	<section>
 		<title>Free CGI-UK - About</title>
@@ -34,7 +38,8 @@
 			actuality, are quite prepared to hack into a bank in virtuality. This
 			has led to any traders in the Internet being responsible for their
 			own security, and their own protection of property. This has shaped
-			the modern web server.</para>
+			the modern web server.
+		</para>
 		<para>The web server can be likened to a medieval fortress. Security
 			quite often is the most important feature of a web server, overriding
 			speed and efficiency. Users of the Internet are only ever permitted
@@ -47,7 +52,8 @@
 		</para>
 		<para>Web hosting companies find it difficult to make money in
 			virtuality. This is because there is no tangible property in virtual
-			space, and therefore no sense of value.</para>
+			space, and therefore no sense of value.
+		</para>
 		<para>In order for web hosting companies to make money, the majority
 			will rely on aspects of actuality. This could be offering free web
 			hosting, but forcing advertising onto users. Or offering free web
@@ -56,30 +62,35 @@
 			resort to offering the hosting for free and getting money from
 			customers in other means. The number of 'free' web hosting companies
 			offering greater and greater privileges, but with more and more
-			catches, is phenomenal.</para>
+			catches, is phenomenal.
+		</para>
 		<para>I would argue that all users in virtuality have the right to
 			freedom with no repercussions. A visitor to virtuality is escaping
 			actuality, and as such should be removed entirely from any direct
 			links to actuality. Because of this, I have decided to base my
-			project on perverting the existing free systems.</para>
+			project on perverting the existing free systems.
+		</para>
 		<para>I have created a hoax web hosting company that are offering
 			users massive privileges for their web sites. The company (Free CGI
 			UK - www.freecgiuk.co.uk) will in turn be expecting something back
 			from their users. The automated Free CGI UK server does this in a
-			number of ways.</para>
+			number of ways.
+		</para>
 		<para>Firstly, the user will be phoned and asked to make an
 			appointment for a representative of Free CGI UK to visit. Once they
 			have done this, a letter of confirmation will be posted and e-mail
 			sent. Free CGI UK will need to do this, as the users property will
-			become their method of payment.</para>
+			become their method of payment.
+		</para>
 	</section>
 
-	<section>
+	<section xml:id="application">
 		<title>Free CGI-UK - Application</title>
 		<para>The execution of this project has been limited to just the
 			registering and phone calling elements. I left out the e-mailed
 			responses and letters of confirmation to concentrate my time on the
-			telephone application.</para>
+			telephone application.
+		</para>
 		<para>
 			<link linkend="theSite">The web site</link>
 			is the method of registration. A user visits the Free CGI UK web site
@@ -88,10 +99,12 @@
 		</para>
 		<imagedata fileref="images/screenshot1.gif" />
 		<para>These details are then added to a database and used later by the
-			telephone application.</para>
+			telephone application.
+		</para>
 		<para>The telephone application takes the list of users, and
 			sequentially phones them up, one after the other. The user answers
-			the phone, and is greeted by the machine saying:</para>
+			the phone, and is greeted by the machine saying:
+		</para>
 		<para>
 			"Hello
 			<emphasis>*users name*</emphasis>
@@ -101,7 +114,8 @@
 			suitable time for one of our representatives to visit?"
 		</para>
 		<para>The machine will then listen for a response, record the resonse,
-			and reply with the following:</para>
+			and reply with the following:
+		</para>
 		<para>
 			"Thank you from Free C G I UK. We will be in contact with you
 			regarding your appointment for
@@ -111,10 +125,12 @@
 		</para>
 		<para>Following this, it will then have a conversation with the user
 			until the allotted 2 minute maximum call length is reached, after
-			which it will say goodbye and hang up.</para>
+			which it will say goodbye and hang up.
+		</para>
 		<para>This process is entirely automated using a combination of voice
 			modem management, speech recognition, text to speech and the ALICE
-			chat bot.</para>
+			chat bot.
+		</para>
 		<para>The application is installed using 2 computers. One PC runs the
 			phone management application using the Microsoft JDK (Java
 			Development Kit) with the Microsoft TAPI (Telephony Application
@@ -122,7 +138,8 @@
 			the communications application which runs the Sun JDK using the Chant
 			SpeechKit 2.1.2 which implements an interface to the Microsoft SAPI
 			(Speech Application Programming Interface) version 4. This
-			application also runs the ALICE chat bot version b for Java.</para>
+			application also runs the ALICE chat bot version b for Java.
+		</para>
 		<mediaobject>
 			<imageobject>
 				<imagedata fileref="images/phoneappbig.jpg" format="JPG" />
@@ -144,9 +161,492 @@
 			requires Windows 2000, and the communications app requires any
 			Windows 95+ or Windows NT4+ platform. The 2 machines must be linked
 			together with a pair of audio cables too. This is from the speaker
-			out to the line in of both machines.</para>
+			out to the line in of both machines.
+		</para>
 		<para>If the applications are installed successfully, they will run
 			through the list of users automatically, requiring no supervision.
 		</para>
+	</section>
+
+	<section xml:id="results">
+		<title>Free CGI-UK - Results</title>
+		<para>During the time the Free CGI UK web site was online, a number of
+			users did register for the service. These users were then phoned.
+			Here is some example dialog from the phone calls:
+		</para>
+		<segmentedlist>
+			<segtitle>FCGI</segtitle>
+			<segtitle>User</segtitle>
+			<seglistitem>
+				<seg>You must be very intelligent.</seg>
+				<seg>Yes. Yes. I suppose so.</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>You sound very excited.</seg>
+				<seg>Hahaha</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>I'm glad I amuse you.</seg>
+			</seglistitem>
+		</segmentedlist>
+		<para>
+			To read part of the applications automatically generated log, see
+			<xref linkend="appLog" />.
+		</para>
+		<para>The running of this application was very successful. However,
+			the quality of recorded matter was very poor due to the poor quality
+			of components making up the 2 PC's. The modem and sound cards
+			produced a lot of background noise, making the text to speech
+			difficult for users to follow.
+		</para>
+		<para>
+			To hear any of the clips, download the relevant .mp3 file from the
+			<xref linkend="downloads" /> section.
+		</para>
+		<para>The audio clip 1 is a typical conversation with an unsuspecting
+			user. This user had no idea that they would be phoned, and as such
+			hung up! The more interesting results came from the users who were
+			expecting to be phoned (my friends!). The audio clip 2 is a
+			particularly good example of this.
+		</para>
+	</section>
+
+	<section>
+		<title>Free CGI-UK - Conclusions</title>
+		<para>Technically, a lot more work was needed in refining the
+			applications. Dedicated telephony equipment would have greatly
+			improved quality and efficiency.
+		</para>
+		<para>I hope the project served its purpose. I don't actually think
+			any
+			of the users telephoned for the cause can have had a clue what was
+			going on, however hopefully the confusion will worry them into being
+			a
+			little more careful as to what they sign up for now though. Maybe I
+			will follow the calls up and get some opinions. Although I feel the
+			event will be long forgotten.
+		</para>
+		<para>It is interesting to see that big companies with huge call
+			centres are still relying on push button telephone operated menu
+			systems for their calls. The idea of press '1' for this, press '2'
+			for
+			that now seems to be a little dated. Would it not be possible for a
+			machine to ask what the call is about, and make an calculated guess
+			from the response?
+		</para>
+		<para>It would also seem that the technology for speech recognition is
+			still in its infancy. The trouble is with training. Most speech
+			recognition systems use training to learn vocabularies from their
+			user. This training can take some time. With a phone call, a
+			different
+			person is greeted each time, each with their own vocabulary and
+			accent.
+		</para>
+		<para>The most concerning aspect from this project is the ability to
+			abuse. This project is designed to abuse rights, to provoke thinking
+			about what is free. However it would be just as simple to abuse this
+			technology to have automated double-glazing sales people and
+			automated
+			market surveys.
+		</para>
+		<para>
+			Overall I am very satisfied with this project. I have achieved all I
+			had hoped to achieve, and now have some amusing results to listen to.
+			I hope the flow of 'free' services on the Internet slows down a
+			little, as it may end up giving bad press for truly free services
+			such as at GNU (GNU's Not Unix - see the links page), which are the
+			true foundation of the Internet community.
+		</para>
+	</section>
+
+	<section xml:id="downloads">
+		<title>Free CGI-UK - Download</title>
+		<para>
+			The downloads are split into the
+			<link linkend="apps">downloadable applications</link>
+			with source, and some
+			<link linkend="sounds">sound clips</link>
+			from the running of the applications.
+		</para>
+		<section xml:id="apps">
+			<title>Applications</title>
+			<para>It is important to note that in developing the app, I have used
+				every shortcut under the sun. The app is very much machine specific,
+				and I warn you that you will have NO luck in simply installing and
+				running them. They are potentially only useful for developers to
+				download, maybe to see how I've hacked about with the various
+				components.</para>
+			<para>
+				<ulink url="https://github.com/KolonelKustard/freecgiuk/releases/" />
+			</para>
+			<para>
+				The phone manager needs to be run in Windows 2000 using the
+				Microsoft JDK and TAPI3. Visit the
+				<ulink url="http://msdn.microsoft.com">MSDN web site</ulink>
+				to download both of these.
+			</para>
+			<para>
+				The Communicator uses a modified version of the ALICE chat bot, and
+				also uses the Chant SpeechKit 2.1.2. You will need to download the
+				speechkit from here:
+				<ulink url="http://www.speechkit.com" />
+				to run this.
+			</para>
+			<para>
+				You will need to download the Alice chat bot and modify it or my
+				code to use it with this app. I couldn't include it with this
+				download because it's too big. Download version b of Alice from
+				<ulink url="http://www.alicebot.org/" />
+			</para>
+			<para>There is also currently no database of users included. The code
+				uses JDBC though, so simply use your own!</para>
+		</section>
+		<section xml:id="sounds">
+			<title>Example Results</title>
+			<para>The first audio file is from an unsuspecting user. The second
+				audio file is from a user who was expecting to be phoned:</para>
+			<orderedlist>
+				<listitem>
+					<ulink url="http://kolonelkustard.github.io/freecgiuk/audioclip1.wav">audioclip1.wav</ulink>
+				</listitem>
+				<listitem>
+					<ulink url="http://kolonelkustard.github.io/freecgiuk/audioclip2.wav">audioclip2.wav</ulink>
+				</listitem>
+			</orderedlist>
+		</section>
+	</section>
+
+	<section xml:id="theSite">
+		<title>Free CGI-UK - The Site</title>
+		<para>
+			The live site is no more but there is an archive of the site here:
+			<ulink url="http://kolonelkustard.github.io/freecgiuk/thesite/" />
+		</para>
+	</section>
+
+	<section>
+		<title>Free CGI-UK - Technology</title>
+		<para>
+			So what is the technology behind making the automated phone caller of
+			Free CGI UK? The application is split into two seperate components,
+			as can be seen by visiting the
+			<link linkend="application">application</link>
+			page. I will now break down what they do and why I have chosen
+			particular paths.
+		</para>
+		<section>
+			<title>Phone Manager</title>
+			<para>
+				The phone manager is a
+				<emphasis>fairly</emphasis>
+				simple component. I chose to use the Microsoft TAPI (Telephony
+				Application Programming Interface) to interface with the voice modem
+				in my PC. I would have used Sun's JTAPI (Java TAPI), but as yet
+				there are no free implementations.
+			</para>
+			<para>Because I have very little knowledge of C++, I had to then
+				limit myself to using the TAPI 3.0 which ships with Windows 2000,
+				which uses the Microsoft COM model, and is therefore compatible with
+				the Microsoft Java SDK and its handy non-Sun-friendly JActiveX (Sun
+				are currently trying to quash this feature as it goes against the
+				machine independance principles of Java!).</para>
+			<para>So the phone app uses a heavily butchered example class from
+				Microsoft, which is called from a management app, which also handles
+				a network connection to the communications component running on
+				another PC. The communications component then instructs the phone
+				manager on what to dial, when to change the direction of the audio,
+				and when to disconnect.</para>
+			<para>The MAJOR limitation currently with the phone manager is with
+				my machine. I unfortunately have an ancient modem with no native
+				TAPI drivers. It is therefore managed by the Microsoft Unimodem/V
+				default drivers. This unfortunately means the modem does not support
+				full-duplex, and as such, when the direction of audio needs to be
+				changed, a pause of anywhere between 1 to 10 seconds can occur as
+				one stream is stopped, and another started.</para>
+			<para>
+				Ideally I would have gone out and bought a decent
+				<ulink url="http://www.dialogic.com">Dialogic</ulink>
+				modem and used the JTAPI implementation they supply. But
+				unfortunately I'm a student...!
+			</para>
+		</section>
+		<section>
+			<title>Communicator</title>
+			<para>The communicator is a little more complicated than the phone
+				manager!!! It is an entirely automated component of the entire
+				application, requiring one or two selections from the user with
+				regards to selecting speech engines prior to running.</para>
+			<para>Firstly I will run through the order in which tasks happen,
+				then I will expand upon some of the points.</para>
+			<para>On starting the application, it will ask for the IP of the
+				machine running the phone manager. If it successfully connects to
+				the phone manager, it will then begin initialisation.</para>
+			<para>It preloads the vocabularies of the ALICE bot, then asks the
+				user to select a speech recognition engine, then asks the user to
+				select a text-to-speech engine. The speech engines are then
+				initialised. Finally the users details are read from the databse
+				into memory.</para>
+			<para>Once initialisation has completed, the main program loop
+				begins. Each loop constructs a new phone call with a 2 minute
+				maximum length, following a short structured dialogue, and an
+				attempt to converse using the ALICE bot.</para>
+			<para>Once a user has either hung up, or the 2 minutes maximum call
+				length is reached, the communications app will instruct the phone
+				manager to disconnect the current call and begin the next call.
+			</para>
+			<para>This continues until all the users in the database have been
+				phoned.</para>
+			<para>
+				To hear some conversations recorded using the application, visit the
+				<xref linkend="results" />
+				section or the
+				<xref linkend="downloads" />
+				section.
+			</para>
+			<para>
+				I will now delve a little deeper into the Communicator application.
+				It runs using the ALICE bot (
+				<ulink url="http://www.alicebot.org/" />) for AI chatting, and
+				the Chant Speechkit 2.1.2 (
+				<ulink url="http://www.speechkit.com" />) for speech recognition
+				and text-to-speech. The Chant speechkit
+				provides an interface to an variety of speech engines. I chose the
+				Microsoft SAPI 4.0 as it was free! I was going to use the SAPI 5.0,
+				as it now implements the COM object model. However I didn't have
+				time to hack around with it, and there is currently no direct
+				support for Java developers.
+			</para>
+			<para>When a call is created, the phone manager returns a connected
+				message. The communicator must then decipher between the noises of a
+				phone ringing and the noise of somebody's voice as they answer the
+				phone. This is because the noise of a phone ringing created when you
+				phone another line is provided by the telephony provider you dial
+				to. This gives the impression of a call being connected even though
+				it is not. Therefore, the speech recognition has a list of phrases
+				to ignore when listening for an answer. The list of phrases I
+				created are:</para>
+			<para>"it's a", "hurt", "good who", "coup", "aha", "a", "they", "they
+				they", "a. a.", "a good", "good a", "good good", "to", "to to", "a
+				a", "and", "and and", "a new", "new new"</para>
+			<para>This is quite interesting in itself, as this is what the speech
+				recognition recognised to be ringing tones!</para>
+			<para>
+				To see exactly how it all works, download the app from the
+				<xref linkend="downloads" /> section.
+			</para>
+		</section>
+	</section>
+	
+	<section xml:id="appLog">
+		<title>Application log</title>
+		
+		<segmentedlist>
+			<title>23/01/2001 20:10:34</title>
+			<segtitle>FCGI</segtitle>
+			<segtitle>User</segtitle>
+			<seglistitem>
+				<seg>Hello Mr Ben Wakeford from Free CGI UK. Thank you for
+                  registering with us. We are very grateful for your interest.
+                  In order for your application to be completed we will need to
+                  evaluate your property. When would be a suitable time for one
+                  of our representatives to visit?</seg>
+				<seg>tomorrow</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Thank you from Free C G I UK. We will be in contact
+                  with you regarding your appointment for tomorrow. Is there anything
+                  you would like to ask me regarding Free C G I UK?</seg>
+				<seg>no web site</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Would you ever do it?</seg>
+				<seg>pardon</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>You're excused</seg>
+				<seg>don't understand unfamiliar</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Oh I'm sorry. Perhaps I can explain it again better.</seg>
+				<seg>yes</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Perhaps I can explain it again better. Yes?</seg>
+				<seg>yes definately</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>What makes you so certain?</seg>
+				<seg>part properly</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>What part are you confused about?</seg>
+				<seg>part questions</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Would you like to have it?</seg>
+				<seg>Have what?</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Questions</seg>
+				<seg>no thankyou</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>You are quite welcome.</seg>
+				<seg></seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Right I'm off now. Thanks for your time.</seg>
+				<seg></seg>
+			</seglistitem>
+		</segmentedlist>
+		
+		<segmentedlist>
+			<title>23/01/2001 20:14:04</title>
+			<segtitle>FCGI</segtitle>
+			<segtitle>User</segtitle>
+			<seglistitem>
+				<seg>Hello Mr Johan Ribenfors from Free CGI UK. Thank you
+                  for registering with us. We are very grateful for your interest.
+                  In order for your application to be completed we will need to
+                  evaluate your property. When would be a suitable time for one
+                  of our representatives to visit?</seg>
+				<seg>hello</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Thank you from Free C G I UK. We will be in contact
+                  with you regarding your appointment for hello. Is there anything
+                  you would like to ask me regarding Free C G I UK?</seg>
+				<seg>no</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>OK</seg>
+				<seg>hello</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Hi there.</seg>
+				<seg></seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Right I'm off now. Thanks for your time.</seg>
+				<seg></seg>
+			</seglistitem>
+		</segmentedlist>
+		
+		<segmentedlist>
+			<title>23/01/2001 20:15:40</title>
+			<segtitle>FCGI</segtitle>
+			<segtitle>User</segtitle>
+			<seglistitem>
+				<seg>Hello Mr Simon Wainwright from Free CGI UK. Thank you
+                  for registering with us. We are very grateful for your interest.
+                  In order for your application to be completed we will need to
+                  evaluate your property. When would be a suitable time for one
+                  of our representatives to visit?</seg>
+				<seg>anytime fine</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Thank you from Free C G I UK. We will be in contact
+                  with you regarding your appointment for anytime fine. Is there
+                  anything you would like to ask me regarding Free C G I UK?</seg>
+				<seg>no I know everything</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>You must be very intelligent.</seg>
+				<seg>yes</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Yeah that's right. You sound excited.</seg>
+				<seg>ha ha</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>I'm glad you got a laugh out of it.</seg>
+				<seg>main</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Thanks for explaining it.</seg>
+				<seg>problem</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Try asking me something else.</seg>
+				<seg>hello</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Hi there</seg>
+				<seg>how doing</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>I'm doing great. How about you?</seg>
+				<seg>tired fine</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Maybe you should get some rest.</seg>
+				<seg>good dear</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Thanks for the compliment. Quite honestly I wouldn't
+                  worry myself about that.</seg>
+				<seg></seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Right I'm off now. Thanks for your time.</seg>
+				<seg></seg>
+			</seglistitem>
+		</segmentedlist>
+		    
+		<segmentedlist>
+			<title>23/01/2001 20:18:02</title>
+			<segtitle>FCGI</segtitle>
+			<segtitle>User</segtitle>
+			<seglistitem>
+				<seg>Hello Mr Justin Rosewell from Free CGI UK. Thank you
+                  for registering with us. We are very grateful for your interest.
+                  In order for your application to be completed we will need to
+                  evaluate your property. When would be a suitable time for one
+                  of our representatives to visit?</seg>
+				<seg></seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Thank you from Free C G I UK. We will be in contact
+                  with you regarding your appointment for . Is there anything
+                  you would like to ask me regarding Free C G I UK?</seg>
+				<seg>hello</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Hi there</seg>
+				<seg></seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Right I'm off now. Thanks for your time.</seg>
+				<seg></seg>
+			</seglistitem>
+		</segmentedlist>
+		
+		<segmentedlist>
+			<title>23/01/2001 20:19:12</title>
+			<segtitle>FCGI</segtitle>
+			<segtitle>User</segtitle>
+			<seglistitem>
+				<seg>Hello Miss Jo Miller from Free CGI UK. Thank you for
+                  registering with us. We are very grateful for your interest.
+                  In order for your application to be completed we will need to
+                  evaluate your property. When would be a suitable time for one
+                  of our representatives to visit?</seg>
+				<seg>anytime ralph</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Thank you from Free C G I UK. We will be in contact
+                  with you regarding your appointment for anytime ralph. Is there
+                  anything you would like to ask me regarding Free C G I UK?</seg>
+				<seg>no</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>I see</seg>
+				<seg></seg>
+			</seglistitem>
+			<seglistitem>
+				<seg>Right I'm off now. Thanks for your time.</seg>
+				<seg></seg>
+			</seglistitem>
+		</segmentedlist>
 	</section>
 </chapter>
