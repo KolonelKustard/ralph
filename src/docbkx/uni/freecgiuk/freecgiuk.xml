@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://docbook.org/ns/docbook http://docbook.org/xml/5.0/xsd/docbook.xsd"
+	version="5.0" xml:lang="en">
+
+	<info>
+		<title>Free CGI-UK</title>
+	</info>
+	<para>Free CGI-UK is a hoax web site intended to entice Internet users
+		to fill out its form. The site offers free CGI hosting for a variety
+		of server side protocols. Once the user has filled in their details,
+		they are added to the database and enlisted to take part in the Free
+		CGI-UK project.</para>
+	<imagedata fileref="images/screenshot1.gif" />
+	<para>The project aims to attack current mis-conceptions of Free.
+		Nothing is truely free. 2 for the price of 1 inevitably means another
+		item becomes more expensive. Free web space means forced advertising.
+		The list goes on.</para>
+	<para>Free is simply a marketing tool used to entice customers into
+		inadvertantly spending money.</para>
+	<para>So when a user signs up for Free CGI-UK, why should anything be
+		any different? Free CGI-UK need to make money too...</para>
+
+	<section>
+		<title>Free CGI-UK - About</title>
+		<para>The idea of exchange has been the foundation for modern
+			economics. In a modern state run market based economy, currency is
+			exchanged for goods or services. The state is then responsible for
+			managing the market and ensuring fair trading and lawfulness. The
+			Internet, because of its global nature, has no governing body.
+			Therefore there is no inherent protection of property rights. On the
+			Internet, otherwise lawful people lose any sense of lawfulness.
+			Hobbyists who would have no intentions of robbing a bank in
+			actuality, are quite prepared to hack into a bank in virtuality. This
+			has led to any traders in the Internet being responsible for their
+			own security, and their own protection of property. This has shaped
+			the modern web server.</para>
+		<para>The web server can be likened to a medieval fortress. Security
+			quite often is the most important feature of a web server, overriding
+			speed and efficiency. Users of the Internet are only ever permitted
+			to view a tiny proportion of a web server, similar to the fortress
+			having an open market. Only the permitted privileged few can have
+			further levels of access, depending on either their status, or how
+			much they are willing to exchange. This limits the inhabitants of a
+			fortress to friends and family of the owner, and the wealthy. In the
+			case of the web server, this is employees and the paying customer.
+		</para>
+		<para>Web hosting companies find it difficult to make money in
+			virtuality. This is because there is no tangible property in virtual
+			space, and therefore no sense of value.</para>
+		<para>In order for web hosting companies to make money, the majority
+			will rely on aspects of actuality. This could be offering free web
+			hosting, but forcing advertising onto users. Or offering free web
+			hosting as long as users dial up through a particular account. In
+			order for web hosting companies to gain paying customers they often
+			resort to offering the hosting for free and getting money from
+			customers in other means. The number of 'free' web hosting companies
+			offering greater and greater privileges, but with more and more
+			catches, is phenomenal.</para>
+		<para>I would argue that all users in virtuality have the right to
+			freedom with no repercussions. A visitor to virtuality is escaping
+			actuality, and as such should be removed entirely from any direct
+			links to actuality. Because of this, I have decided to base my
+			project on perverting the existing free systems.</para>
+		<para>I have created a hoax web hosting company that are offering
+			users massive privileges for their web sites. The company (Free CGI
+			UK - www.freecgiuk.co.uk) will in turn be expecting something back
+			from their users. The automated Free CGI UK server does this in a
+			number of ways.</para>
+		<para>Firstly, the user will be phoned and asked to make an
+			appointment for a representative of Free CGI UK to visit. Once they
+			have done this, a letter of confirmation will be posted and e-mail
+			sent. Free CGI UK will need to do this, as the users property will
+			become their method of payment.</para>
+	</section>
+
+	<section>
+		<title>Free CGI-UK - Application</title>
+		<para>The execution of this project has been limited to just the
+			registering and phone calling elements. I left out the e-mailed
+			responses and letters of confirmation to concentrate my time on the
+			telephone application.</para>
+		<para>
+			<link linkend="theSite">The web site</link>
+			is the method of registration. A user visits the Free CGI UK web site
+			and registers their interest for the service, filling in address and
+			phone number.
+		</para>
+		<imagedata fileref="images/screenshot1.gif" />
+		<para>These details are then added to a database and used later by the
+			telephone application.</para>
+		<para>The telephone application takes the list of users, and
+			sequentially phones them up, one after the other. The user answers
+			the phone, and is greeted by the machine saying:</para>
+		<para>
+			"Hello
+			<emphasis>*users name*</emphasis>
+			from Free CGI UK. Thank you for registering with us. We are very
+			grateful for your interest. In order for your application to be
+			completed we will need to evaluate your property. When would be a
+			suitable time for one of our representatives to visit?"
+		</para>
+		<para>The machine will then listen for a response, record the resonse,
+			and reply with the following:</para>
+		<para>
+			"Thank you from Free C G I UK. We will be in contact with you
+			regarding your appointment for
+			<emphasis>*users response*</emphasis>
+			. Is there anything you would like to ask me regarding Free C G I
+			UK?"
+		</para>
+		<para>Following this, it will then have a conversation with the user
+			until the allotted 2 minute maximum call length is reached, after
+			which it will say goodbye and hang up.</para>
+		<para>This process is entirely automated using a combination of voice
+			modem management, speech recognition, text to speech and the ALICE
+			chat bot.</para>
+		<para>The application is installed using 2 computers. One PC runs the
+			phone management application using the Microsoft JDK (Java
+			Development Kit) with the Microsoft TAPI (Telephony Application
+			Programming Interface) version 3 for Windows 2000. Another PC uses
+			the communications application which runs the Sun JDK using the Chant
+			SpeechKit 2.1.2 which implements an interface to the Microsoft SAPI
+			(Speech Application Programming Interface) version 4. This
+			application also runs the ALICE chat bot version b for Java.</para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/phoneappbig.jpg" format="JPG" />
+			</imageobject>
+			<caption>
+				<para>The phone app</para>
+			</caption>
+		</mediaobject>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/commappbig.jpg" format="JPG" />
+			</imageobject>
+			<caption>
+				<para>The Communications App</para>
+			</caption>
+		</mediaobject>
+		<para>The applications are very difficult to set up and run. They
+			require 2 TCP/IP networked IBM compatible PC's. The phone app
+			requires Windows 2000, and the communications app requires any
+			Windows 95+ or Windows NT4+ platform. The 2 machines must be linked
+			together with a pair of audio cables too. This is from the speaker
+			out to the line in of both machines.</para>
+		<para>If the applications are installed successfully, they will run
+			through the list of users automatically, requiring no supervision.
+		</para>
+	</section>
+</chapter>
