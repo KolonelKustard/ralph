@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.totalchange.ralph</groupId>
+	<artifactId>ralph</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>war</packaging>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.agilejava.docbkx</groupId>
+				<artifactId>docbkx-maven-plugin</artifactId>
+				<version>2.0.14</version>
+				<executions>
+					<execution>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>generate-xhtml</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<includes>portfolio.xml</includes>
+					<xincludeSupported>true</xincludeSupported>
+					<targetDirectory>${project.build.directory}/${project.build.finalName}/portfolio</targetDirectory>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.6</version>
+				<executions>
+					<execution>
+						<id>copy-resources</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}/${project.build.finalName}/portfolio</outputDirectory>
+							<resources>
+								<resource>
+									<directory>src/docbkx</directory>
+									<includes>
+										<include>**/*.jpg</include>
+										<include>**/*.gif</include>
+									</includes>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
