@@ -9,4 +9,5 @@
 	<xi:include href="uni/bitrot/bitrot.xml" />
 	<xi:include href="uni/ephemeris/ephemeris.xml" />
 	<xi:include href="uni/freecgiuk/freecgiuk.xml" />
+	<xi:include href="uni/nostalgianet/nostalgianet.xml" />
 </book>

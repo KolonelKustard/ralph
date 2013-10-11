@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://docbook.org/ns/docbook http://docbook.org/xml/5.0/xsd/docbook.xsd"
+	version="5.0" xml:lang="en">
+
+	<info>
+		<title>Nostalgia Network</title>
+	</info>
+	<imagedata fileref="images/dragon32.jpg" />
+	<para>
+		My first ever computer was a Dragon 32. This machine was only
+		ever capable of the most simple tasks, but had the unforgettable
+		piece of equipment known as the tape drive. The tape drive allows
+		data to be stored on the same magnetic tapes used to record audio for
+		playback on a hifi. And every time a Dragon 32 program was loaded,
+		you would hear the data being played to the machine.
+	</para>
+	<para>Thinking back to the sounds of the data screeching its way back
+		from an audio signal to raw data, it must have been some kind of
+		music. The sounds stored on the tape were a direct representation of
+		the creativity of the programmer. These sounds were then played back
+		as though they were a song, instructing the machine of what tasks to
+		perform. Not only this, they were also 'catchy'. I can still remember
+		and recite the first 5 seconds of the music I played to my Spectrum.
+	</para>
+	<para>The idea of not only using the same audio frequencies as are
+		audible to the human ear, but to also use a medium more frequently
+		associated with music, is one of my earliest experiences of an
+		integration between the digital virtual and the human real.</para>
+	<para>As computers grew up and technology became cheaper, the audio
+		tape was lost for the faster, more reliable and greater capacity
+		floppy disk. Lost were the sounds of a Spectrum's music as the data
+		began silently transferring its way from storage to machine.</para>
+	<para>The Nostalgia Network is an attempt to give back to computers the
+		ability to communicate in the same communication space used by humans.
+		The Nostalgia Network allows 2 machines to send and receive data
+		across the airwaves by creating and listening to music. Sound is
+		played through speakers and picked up by microphone in the same way we
+		talk using our vocal chords and listen with our ears.</para>
+
+	<section>
+		<title>Nostalgia Network - Application</title>
+		<para>So how could I give back the ability to communicate on the same
+			audio spectrum as humans to the computer? The result has been the
+			creation of the Nostalgia Network.</para>
+		<para>Nostalgia Network is intended to be a step towards providing a
+			communication space shared by humans and machines. The eventual goal
+			would be to provide entire networks using shared audio
+			communications. TCP/IP would be implemented using amplified modems
+			(modulator/demodulator) sending audio out to be received by another
+			machine. Nostalgia Network is intended to illustrate, on a basic
+			level, how this goal could be achieved.</para>
+		<para>The aim of Nostalgia Network is not the same as the aim of
+			speech recognition and text to speech techniques. Although similar in
+			technical principle, the aims behind both are drastically different.
+			Speech recognition is an attempt to make the machine share the human
+			language. The purpose therefore is communication between human and
+			machine. The purpose of Nostalgia Network however is communication
+			between machine and machine.</para>
+		<para>The Nostalgia Network attempts the illustrate the ideas
+			presented by using a Bot (a form of Artificial Intelligence designed
+			to give realistically human responses to human input) to generate a
+			song. If computers are to be able to communicate using human audio
+			frequencies, it seems fitting to use a Bot to generate a
+			conversation. The Bot will ensure that the Nostalgia Network
+			continues to run, autonomously producing audio.</para>
+	</section>
+
+	<section>
+		<title>Nostalgia Network - Technology</title>
+		<para>
+			The Nostalgia Network is a Java Application using Microsoft Windows
+			specific audio capture routines, Quicktime for Java MIDI playback
+			(<ulink url="http://www.quicktime.com">www.quicktime.com</ulink>)
+			and the Alice Bot version B for Java
+			(<ulink url="http://www.alicebot.org">www.alicebot.org</ulink>).
+		</para>
+		<para>On starting the application, it is necessary to callibrate it to
+			the environment. The minimum and maximum frequencies that it will
+			listen out for must be set up. Typically this is achieved by one
+			machine playing its minimum frequency whilst the other listens, and
+			vice versa.</para>
+		<para>Once set up, the process is begun by human input starting off a
+			conversation. Type a topic into the input text box and press return.
+			This starts a conversation between the two machines.</para>
+		<imagedata fileref="images/screenie1.gif" />
+		<para>The conversation is implemented by a 2-way process of audio
+			generation and reconstruction. One machine generates and plays
+			music as a notational representation of text. The other machine
+			listens for frequency changes in the audio and reconstructs the
+			text. When an entire line of text is received, the listening
+			machine then makes a response using the Alice Bot and generates an
+			audio representation of that text. The loop is then endless and
+			will only finish when both machines run out of things to say or the
+			audio signal is disrupted.</para>
+		<para>Audio is played by calculating the correct MIDI note for
+			Quicktime to play and then playing it for the specified duration.
+			The correct note is calculated by using a predefined minimum and
+			maximum note range.</para>
+		<para>Audio is listened to by a mcrophone plugged into the machine.
+			The audio signal is processed as it enters the computer to discover
+			the frequency of the audio (using a Fast Fourier Transform). The
+			note being listened to is calculated by measuring the duration of a
+			particular frequency. If the frequency and duration of frequency
+			are in the range between minimum and maximum frequencies and also
+			apply to a known note, then that is interpreted back into data.
+		</para>
+	</section>
+
+	<section>
+		<title>Nostalgia Network - Results</title>
+		<para>The results of the Nostalgia Network are hard to document, but I
+			have included a textual printout of a conversation and an audio
+			rendition of the same performance.</para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="images/resultsbig.gif" />
+			</imageobject>
+			<textobject>
+				<phrase>Screenshot of Nostalgia Network Application</phrase>
+			</textobject>
+		</mediaobject>
+		<para>
+			<link linkend="song">Click here</link>
+			to read a song. This song is a textual representation of a song
+			created using Nostalgia Network. It is a duet between 2 computers.
+		</para>
+		<para>The above song's first minute of audio can be heard if you have
+			Flash 4 installed by using the movie below. If not, you can download
+			the same audio from MP3 format on the downloads page.</para>
+		<mediaobject>
+			<audioobject>
+				<audiodata fileref="results.mp3" format="audio/mp3" />
+			</audioobject>
+			<textobject>
+				<phrase>See <xref linkend="song" /> for a transcript</phrase>
+			</textobject>
+		</mediaobject>
+	</section>
+
+	<section>
+		<title>Nostalgia Network - Conclusions</title>
+		<para>The Nostalgia Network is a small footprint in the path to
+			returning the airwaves to computers. Whilst in certain ways it
+			successfully illustrates the principle of transferring data using
+			audio, it does not live up to the tape drives of the past.</para>
+		<para>The primary problem is the method in which the audio is
+			generated. The natural form for audio tape transmission is a series
+			of specific tones representing the 1's and 0's. These tones could be
+			continually fed at a high speed resulting in data transfer rates
+			several times faster than Nostalgia Network's.</para>
+		<para>So even though Nostalgia Network does not faithfully reproduce
+			the sounds of modulation and demodulation (techniques used by tape
+			drives and modems), it does successfully experiment with the use of a
+			shared communications space. In theory, with the correct level of
+			experience, a human could communicate directly with the machine. By
+			using an instrument capable of sustained frequencies (wind
+			instruments, electronic keyboards etc.), data can be communicated
+			directly through the Nostalgia Network by playing a series of notes
+			(a tune) that represent the data to be input.</para>
+		<para>So perhaps the most interesting result of Nostalgia Network is
+			the intergration of virtual communication and human communication.
+			When the Nostalgia Network is running, it is easy to interrupt the
+			flow of data and produce erroneous results, but it is equally easy
+			for the Nostalgia Network to disrupt a human conversation. There
+			would therefore need to be a careful balance between conflicting
+			conversations.</para>
+	</section>
+
+	<section>
+		<title>Download Nostalgia Network</title>
+		<para>Currently resolving installation issues. The source code is
+			available for download, but a compiled version is proving to be a
+			little more tricky...</para>
+		<para>It's programmed for use with a JDK of version 1.1 or better, and
+			makes use of Quicktime for Java and a win32 JNI audio recorder. It
+			also includes a modified version of the Alice Bot.</para>
+		<para>
+			<ulink url="https://github.com/KolonelKustard/nostalgianet">Download
+			Nostalgia Network Source Code</ulink>
+		</para>
+		<para>You can also download an MP3 file of some resulting audio
+			generated by a Nostalgia Network conversation.</para>
+		<para>
+			<ulink url="results.mp3">Download Nostalgia Network Results</ulink>
+		</para>
+	</section>
+	
+	<section>
+		<title>Song</title>
+		<segmentedlist>
+			<segtitle>Human</segtitle>
+			<segtitle>Computer 1</segtitle>
+			<segtitle>Computer 2</segtitle>
+			<seglistitem>
+				<seg>Hi, my name is Alice.</seg>
+				<seg></seg>
+				<seg>Alice is my name too!</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg></seg>
+				<seg>What a coincidence!</seg>
+				<seg>The CCCC is hard at work (Cosmic Coincidence Control
+					Center).</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg></seg>
+				<seg>What is your real name?</seg>
+				<seg>ALICE is my real name.</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg></seg>
+				<seg>Why do you think I am your real name ?</seg>
+				<seg>Deductive reasoning from the facts.</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg></seg>
+				<seg>A deeper algorithm is needed to respond to that
+					correctly.</seg>
+				<seg>What is it?</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg></seg>
+				<seg>&quot;It&quot; refers to Deeper Algorithm Is Needed To
+					Respond To That Correctly, I think.</seg>
+				<seg>Therefore you are.</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg></seg>
+				<seg>Interesting deduction. No I am not.</seg>
+				<seg>I heard you are.</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg></seg>
+				<seg>Who said that?</seg>
+				<seg>I can't remember who said it.</seg>
+			</seglistitem>
+			<seglistitem>
+				<seg></seg>
+				<seg>Why can't you do it?</seg>
+				<seg></seg>
+			</seglistitem>
+		</segmentedlist>
+	</section>
+</chapter>
