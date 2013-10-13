@@ -48,6 +48,7 @@
 									<includes>
 										<include>**/*.jpg</include>
 										<include>**/*.gif</include>
+										<include>**/*.mp3</include>
 									</includes>
 								</resource>
 							</resources>
