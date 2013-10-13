@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://docbook.org/ns/docbook http://docbook.org/xml/5.0/xsd/docbook.xsd"
+	version="5.0" xml:lang="en">
+
+	<info>
+		<title>LucidWare</title>
+	</info>
+
+	<para>A Java application exploring the principles of transparency in
+		relation to the Operating System.</para>
+	<para>
+		My dissertation explains the concepts implemented in this application
+		and can be downloaded from
+		<ulink url="http://www.totalchange.com/ralph/dissertation.doc" />.
+	</para>
+	<para>
+		The applications source code and release binaries can be found at
+		<ulink url="https://github.com/KolonelKustard/lucidware" />.
+	</para>
+</chapter>

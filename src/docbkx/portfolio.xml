@@ -10,4 +10,5 @@
 	<xi:include href="uni/ephemeris/ephemeris.xml" />
 	<xi:include href="uni/freecgiuk/freecgiuk.xml" />
 	<xi:include href="uni/nostalgianet/nostalgianet.xml" />
+	<xi:include href="uni/lucidware/lucidware.xml" />
 </book>
