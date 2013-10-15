@@ -27,6 +27,7 @@
 					<includes>portfolio.xml</includes>
 					<xincludeSupported>true</xincludeSupported>
 					<targetDirectory>${project.build.directory}/${project.build.finalName}/portfolio</targetDirectory>
+					<htmlCustomization>src/docbkx/portfolio-customisations.xsl</htmlCustomization>
 				</configuration>
 			</plugin>
 
