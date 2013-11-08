@@ -2,7 +2,7 @@
 	xmlns:xslthl="http://xslthl.sf.net" exclude-result-prefixes="xslthl"
 	version="1.0">
 
-	<xsl:import href="urn:docbkx:stylesheet" />
+	<xsl:import href="../../docbook/html/docbook.xsl" />
 	
 	<xsl:param name="toc.list.type">ul</xsl:param>
 	
@@ -14,16 +14,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css" />
+		<link rel="stylesheet" type="text/css" href="../styles.css" />
 		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js" />
 		<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js" />
 	</xsl:template>
-
-<xsl:template name="make.lots">
-  <xsl:param name="toc.params" select="''"/>
-  <xsl:param name="toc"/>
-
-  <h1>make.lots</h1>
-</xsl:template>
+	
+	<xsl:template name="body.attributes">
+		<xsl:attribute name="data-spy">scroll</xsl:attribute>
+		<xsl:attribute name="data-target">.portfolio-sidebar</xsl:attribute>
+	</xsl:template>
 
 	<xsl:template name="book.titlepage">
 		<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
@@ -51,6 +50,52 @@
 				</div><!-- /.nav-collapse -->
 			</div><!-- /.container -->
 		</div><!-- /.navbar -->
+	</xsl:template>
+
+	<xsl:template match="book">
+		<xsl:call-template name="id.warning" />
+
+		<div>
+			<xsl:apply-templates select="." mode="common.html.attributes" />
+			<xsl:if test="$generate.id.attributes != 0">
+				<xsl:attribute name="id">
+	        		<xsl:call-template name="object.id" />
+				</xsl:attribute>
+			</xsl:if>
+
+			<xsl:call-template name="book.titlepage" />
+
+			<xsl:apply-templates select="dedication" mode="dedication" />
+			<xsl:apply-templates select="acknowledgements" mode="acknowledgements" />
+
+			<xsl:variable name="toc.params">
+				<xsl:call-template name="find.path.params">
+					<xsl:with-param name="table"
+						select="normalize-space($generate.toc)" />
+				</xsl:call-template>
+			</xsl:variable>
+
+			<div class="container" data-offset-top="200">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="portfolio-sidebar hidden-print" role="complementary" data-spy="affix">
+							<xsl:call-template name="make.lots">
+								<xsl:with-param name="toc.params" select="$toc.params" />
+								<xsl:with-param name="toc">
+									<xsl:call-template name="division.toc">
+										<xsl:with-param name="toc.title.p"
+											select="contains($toc.params, 'title')" />
+									</xsl:call-template>
+								</xsl:with-param>
+							</xsl:call-template>
+						</div>
+					</div>
+					<div class="col-md-9" role="main">
+						<xsl:apply-templates />
+					</div>
+				</div>
+			</div>
+		</div>
 	</xsl:template>
 	
 	<xsl:template name="make.toc">
@@ -118,22 +163,16 @@
 					</xsl:when>
 					<xsl:otherwise>
 						<xsl:if test="$nodes">
-							<div class="bs-sidebar hidden-print affix-top" role="complementary">
-								<xsl:element name="{$toc.list.type}">
-									<xsl:attribute name="class">nav bs-sidenav</xsl:attribute>
-									<xsl:apply-templates select="$nodes" mode="toc">
-										<xsl:with-param name="toc-context" select="$toc-context" />
-									</xsl:apply-templates>
-								</xsl:element>
-							</div>
+							<xsl:element name="{$toc.list.type}">
+								<xsl:attribute name="class">nav</xsl:attribute>
+								<xsl:apply-templates select="$nodes" mode="toc">
+									<xsl:with-param name="toc-context" select="$toc-context" />
+								</xsl:apply-templates>
+							</xsl:element>
 						</xsl:if>
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
-	
-	<xsl:template match="article"><h1>article</h1></xsl:template>
-<xsl:template match="set"><h1>set</h1></xsl:template>
-<xsl:template match="book"><h1>book</h1></xsl:template>
 </xsl:stylesheet>

@@ -1,76 +1,46 @@
-html, body {
-	background: #000047;
-	margin: 0;
-	padding: 0;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, sans-serif;
+body {
+	padding-top: 70px;
 }
 
-#bgTopLeft {
-	width: 488px;
-	background: top left no-repeat url(./images/bgtopleft.png);
-	margin: 0 auto;
+.portfolio-sidebar {
+	width: 263px;
 }
 
-#bgTopRight {
-	background: top right no-repeat url(./images/bgtopright.png);
+.bs-sidebar.affix {
+    position: static;
 }
-
-#bgBottomRight {
-	background: bottom right no-repeat url(./images/bgbottomright.png);
+.portfolio-sidebar {
+    background-color: #F7F5FA;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-shadow: 0 1px 0 #FFFFFF;
 }
-
-#bgBottomLeft {
-	background: bottom left no-repeat url(./images/bgbottomleft.png);
-	padding: 35px 44px;
+.portfolio-sidebar .nav > li > a {
+    color: #716B7A;
+    display: block;
+    padding: 5px 20px;
 }
-
-#profile {
-	background: #FFF;
+.portfolio-sidebar .nav > li > a:hover, .portfolio-sidebar .nav > li > a:focus {
+    background-color: #E5E3E9;
+    border-right: 1px solid #DBD8E0;
+    text-decoration: none;
 }
-
-h1 {
-	margin: 0;
-	padding: 0.2em 0.5em;
+.portfolio-sidebar .nav > .active > a, .portfolio-sidebar .nav > .active:hover > a, .portfolio-sidebar .nav > .active:focus > a {
+    background-color: rgba(0, 0, 0, 0);
+    border-right: 1px solid #563D7C;
+    color: #563D7C;
+    font-weight: bold;
 }
-
-p {
-	background: top left no-repeat url(./images/meandrio.jpg);
-	margin: 0;
-	padding: 170px 1em 0 1em;
+.portfolio-sidebar .nav ul {
+    display: none;
+    margin-bottom: 8px;
 }
-
-ul#itsAllAboutMe {
-	list-style: none outside none;
-	margin: 0;
-	padding: 1em 0;
-}
-
-ul#itsAllAboutMe li {
-	margin: 0.2em 0 0.2em 1em;
-	padding: 0.2em 0.5em 0.2em 40px;
-	min-height: 30px;
-}
-
-#linkedIn {
-	background: left no-repeat url(./images/linkedin.png);
-}
-
-#facebook {
-	background: left no-repeat url(./images/facebook.png);
-}
-
-#googlePlus {
-	background: left no-repeat url(./images/googleplus.png);
-}
-
-#twitter {
-	background: left no-repeat url(./images/twitter.png);
-}
-
-#sourceForge {
-	background: left no-repeat url(./images/sourceforge.png);
-}
-
-#blogger {
-	background: left no-repeat url(./images/blogger.png);
+.portfolio-sidebar .nav ul > li > a {
+    font-size: 90%;
+    padding-bottom: 3px;
+    padding-left: 30px;
+    padding-top: 3px;
 }
