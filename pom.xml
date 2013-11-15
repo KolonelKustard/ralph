@@ -19,7 +19,7 @@
 					<execution>
 						<phase>process-resources</phase>
 						<goals>
-							<goal>generate-xhtml</goal>
+							<goal>generate-html</goal>
 						</goals>
 						<configuration>
 							<includes>portfolio.xml</includes>
@@ -27,7 +27,7 @@
 							<targetDirectory>${project.build.directory}/${project.build.finalName}/portfolio</targetDirectory>
 							<targetFileExtension>html</targetFileExtension>
 							
-							<xhtmlCustomization>${basedir}/src/docbkx/portfolio-customisations.xsl</xhtmlCustomization>
+							<htmlCustomization>${basedir}/src/docbkx/portfolio-customisations.xsl</htmlCustomization>
 						</configuration>
 					</execution>
 				</executions>
