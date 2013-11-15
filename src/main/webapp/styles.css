@@ -1,5 +1,5 @@
 body {
-	padding-top: 70px;
+	padding-top: 50px;
 }
 
 .portfolio-sidebar {
@@ -37,6 +37,9 @@ body {
 .portfolio-sidebar .nav ul {
     display: none;
     margin-bottom: 8px;
+}
+.portfolio-sidebar .nav .active > ul {
+	display: block;
 }
 .portfolio-sidebar .nav ul > li > a {
     font-size: 90%;

@@ -27,7 +27,7 @@
 							<targetDirectory>${project.build.directory}/${project.build.finalName}/portfolio</targetDirectory>
 							<targetFileExtension>html</targetFileExtension>
 							
-							<htmlCustomization>${basedir}/src/docbkx/portfolio-customisations.xsl</htmlCustomization>
+							<htmlCustomization>${basedir}/src/docbkx/portfolio-customisations/docbook.xsl</htmlCustomization>
 						</configuration>
 					</execution>
 				</executions>
