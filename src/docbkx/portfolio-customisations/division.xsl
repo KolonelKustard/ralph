@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version='1.0'>
-	<xsl:template match="book">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version='1.0'
+		xmlns:d="http://docbook.org/ns/docbook">
+	<xsl:template match="d:book">
 		<xsl:call-template name="id.warning" />
 
 		<xsl:apply-templates select="." mode="common.html.attributes" />

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version='1.0'>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version='1.0'
+		xmlns:d="http://docbook.org/ns/docbook">
 	<xsl:template name="make.toc.ralph">
 		<xsl:param name="toc-context" select="." />
 		<xsl:param name="toc.title.p" select="true()" />
@@ -19,7 +20,7 @@
 		<xsl:call-template name="make.toc.ralph">
 			<xsl:with-param name="toc-context" select="$toc-context" />
 			<xsl:with-param name="toc.title.p" select="$toc.title.p" />
-			<xsl:with-param name="nodes" select="chapter" />
+			<xsl:with-param name="nodes" select="d:chapter" />
 		</xsl:call-template>
 	</xsl:template>
 
@@ -58,7 +59,7 @@
 		</a>
 	</xsl:template>
 
-	<xsl:template match="book" mode="toc.ralph">
+	<xsl:template match="d:book" mode="toc.ralph">
 		<xsl:param name="toc-context" select="." />
 
 		<xsl:call-template name="subtoc.ralph">
@@ -67,21 +68,21 @@
 		</xsl:call-template>
 	</xsl:template>
 
-	<xsl:template match="chapter" mode="toc.ralph">
+	<xsl:template match="d:chapter" mode="toc.ralph">
 		<xsl:param name="toc-context" select="." />
 
 		<xsl:call-template name="subtoc.ralph">
 			<xsl:with-param name="toc-context" select="$toc-context" />
-			<xsl:with-param name="nodes" select="section" />
+			<xsl:with-param name="nodes" select="d:section" />
 		</xsl:call-template>
 	</xsl:template>
 
-	<xsl:template match="section" mode="toc.ralph">
+	<xsl:template match="d:section" mode="toc.ralph">
 		<xsl:param name="toc-context" select="." />
 
 		<xsl:call-template name="subtoc.ralph">
 			<xsl:with-param name="toc-context" select="$toc-context" />
-			<xsl:with-param name="nodes" select="section" />
+			<xsl:with-param name="nodes" select="d:section" />
 		</xsl:call-template>
 	</xsl:template>
 </xsl:stylesheet>
