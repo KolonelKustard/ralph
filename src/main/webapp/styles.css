@@ -2,6 +2,58 @@ body {
 	padding-top: 50px;
 }
 
+#nameHeading {
+	background: url(images/meandrio.jpg) 50% 20% no-repeat;
+	background-size: cover;
+	padding: 80px 0;
+}
+
+#nameHeading h1 {
+	color: #FFF;
+	text-align: right;
+	text-shadow: 0 0 6px #000;
+}
+
+p#introPara {
+	padding: 1em 0;
+}
+
+ul#itsAllAboutMe {
+	list-style: none outside none;
+}
+
+ul#itsAllAboutMe li {
+	margin: 0.2em 0;
+	padding: 0.2em 0.5em 0.2em 40px;
+	min-height: 30px;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+#linkedIn {
+	background-image: url(./images/linkedin.png);
+}
+
+#facebook {
+	background-image: url(./images/facebook.png);
+}
+
+#googlePlus {
+	background-image: url(./images/googleplus.png);
+}
+
+#twitter {
+	background-image: url(./images/twitter.png);
+}
+
+#sourceForge {
+	background-image: url(./images/sourceforge.png);
+}
+
+#blogger {
+	background-image: url(./images/blogger.png);
+}
+
 .portfolio-sidebar {
 	width: 263px;
 }
@@ -9,6 +61,7 @@ body {
 .bs-sidebar.affix {
     position: static;
 }
+
 .portfolio-sidebar {
     background-color: #F7F5FA;
     border-radius: 5px;
@@ -18,29 +71,35 @@ body {
     padding-top: 10px;
     text-shadow: 0 1px 0 #FFFFFF;
 }
+
 .portfolio-sidebar .nav > li > a {
     color: #716B7A;
     display: block;
     padding: 5px 20px;
 }
+
 .portfolio-sidebar .nav > li > a:hover, .portfolio-sidebar .nav > li > a:focus {
     background-color: #E5E3E9;
     border-right: 1px solid #DBD8E0;
     text-decoration: none;
 }
+
 .portfolio-sidebar .nav > .active > a, .portfolio-sidebar .nav > .active:hover > a, .portfolio-sidebar .nav > .active:focus > a {
     background-color: rgba(0, 0, 0, 0);
     border-right: 1px solid #563D7C;
     color: #563D7C;
     font-weight: bold;
 }
+
 .portfolio-sidebar .nav ul {
     display: none;
     margin-bottom: 8px;
 }
+
 .portfolio-sidebar .nav .active > ul {
 	display: block;
 }
+
 .portfolio-sidebar .nav ul > li > a {
     font-size: 90%;
     padding-bottom: 3px;
