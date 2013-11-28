@@ -54,6 +54,10 @@ ul#itsAllAboutMe li {
 	background-image: url(./images/blogger.png);
 }
 
+#github {
+	background-image: url(./images/github.png);
+}
+
 .portfolio-sidebar {
 	width: 263px;
 }
