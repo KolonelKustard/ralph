@@ -1,10 +1,16 @@
 body {
 	padding-top: 50px;
+	background: #000047;
+}
+
+@media (min-width: 767px) {
+	body {
+		background: #000047 url(images/meandrio.jpg) 0 50px no-repeat;
+		background-size: cover;
+	}
 }
 
 #nameHeading {
-	background: url(images/meandrio.jpg) 50% 20% no-repeat;
-	background-size: cover;
 	padding: 80px 0;
 }
 
@@ -12,6 +18,11 @@ body {
 	color: #FFF;
 	text-align: right;
 	text-shadow: 0 0 6px #000;
+}
+
+#mainContent {
+	background: #FFF;
+	box-shadow: 0 0 20px #FFF;
 }
 
 p#introPara {
