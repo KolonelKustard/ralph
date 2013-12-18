@@ -8,6 +8,11 @@
 	<artifactId>ralph</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>war</packaging>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
+	</properties>
 
 	<build>
 		<plugins>
@@ -56,6 +61,27 @@
 								</resource>
 							</resources>
 						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>com.samaxes.maven</groupId>
+				<artifactId>minify-maven-plugin</artifactId>
+				<version>1.7.2</version>
+				<executions>
+					<execution>
+						<id>default-minify</id>
+						<configuration>
+							<cssSourceDir>./</cssSourceDir>
+							<cssSourceFiles>
+								<cssSourceFile>index.css</cssSourceFile>
+							</cssSourceFiles>
+							<cssFinalFile>styles.css</cssFinalFile>
+						</configuration>
+						<goals>
+							<goal>minify</goal>
+						</goals>
 					</execution>
 				</executions>
 			</plugin>

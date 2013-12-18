@@ -8,6 +8,10 @@ body {
 		background: #000047 url(images/meandrio.jpg) 0 50px no-repeat;
 		background-size: cover;
 	}
+	
+	p#introPara {
+		font-size: 120%;
+	}
 }
 
 #nameHeading {
