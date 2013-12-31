@@ -1,0 +1,30 @@
+.rj-navbar {
+	background-color: #000047;
+	border-color: #000047;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.rj-navbar .navbar-collapse {
+    border-color: #000047;
+}
+.rj-navbar .navbar-brand {
+    color: #FFFFFF;
+}
+.rj-navbar .navbar-nav > li > a {
+    color: #8080B2;
+}
+.rj-navbar .navbar-nav > li > a:hover {
+    color: #FFFFFF;
+}
+.rj-navbar .navbar-nav > .active > a, .rj-navbar .navbar-nav > .active > a:hover {
+    background-color: #30307A;
+    color: #FFFFFF;
+}
+.rj-navbar .navbar-toggle {
+    border-color: #563D7C;
+}
+.rj-navbar .navbar-toggle:hover {
+    background-color: #30307A;
+    border-color: #30307A;
+}
