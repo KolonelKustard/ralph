@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version='1.0'>
 	<xsl:template name="book.titlepage">
-		<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+		<div class="navbar navbar-fixed-top navbar-inverse rj-navbar" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -11,7 +11,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand" href="../">
-						Ralph Jones
+						Ralph Wynne Jones
 					</a>
 				</div>
 				<div class="collapse navbar-collapse">

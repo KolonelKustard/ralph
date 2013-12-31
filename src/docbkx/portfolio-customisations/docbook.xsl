@@ -14,8 +14,9 @@
 	<xsl:template name="user.head.content">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css" />
 		<link rel="stylesheet" type="text/css" href="./portfolio.css" />
+		<link rel="stylesheet" type="text/css" href="../shared.css" />
+		<link rel="shortcut icon" href="../images/favicon.ico" />
 		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js" />
 		<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js" />
 	</xsl:template>
