@@ -84,6 +84,20 @@
 							<goal>minify</goal>
 						</goals>
 					</execution>
+					<execution>
+						<id>portfolio-minify</id>
+						<configuration>
+							<cssSourceDir>./portfolio</cssSourceDir>
+							<cssSourceFiles>
+								<cssSourceFile>portfolio.css</cssSourceFile>
+								<cssSourceFile>../shared.css</cssSourceFile>
+							</cssSourceFiles>
+							<cssFinalFile>styles.css</cssFinalFile>
+						</configuration>
+						<goals>
+							<goal>minify</goal>
+						</goals>
+					</execution>
 				</executions>
 			</plugin>
 		</plugins>
