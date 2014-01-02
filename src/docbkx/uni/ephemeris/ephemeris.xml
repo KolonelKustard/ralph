@@ -44,7 +44,14 @@
 			controllable. It works by providing control of the speed of time in a
 			shared environment.
 		</para>
-		<imagedata fileref="images/game1.jpg" />
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="uni/ephemeris/images/game1.jpg" />
+			</imageobject>
+			<textobject>
+				<phrase>Screenshot of the Application</phrase>
+			</textobject>
+		</mediaobject>
 		<para>When entering the Ephemeris environment, a cityscape is
 			provided. A city is a place in which strangers are more common than
 			friends. As such, it is possible to walk through the city without

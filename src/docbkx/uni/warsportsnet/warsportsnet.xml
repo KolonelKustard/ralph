@@ -12,7 +12,7 @@
 		the use of virtual battles.</para>
 	<mediaobject>
 		<imageobject>
-			<imagedata fileref="images/screeniebig.gif" />
+			<imagedata fileref="uni/warsportsnet/images/screeniebig.gif" />
 		</imageobject>
 		<textobject>
 			<phrase>Screenshot of the War Sports Net website</phrase>
@@ -38,7 +38,7 @@
 		<para>The application:</para>
 		<mediaobject>
 			<imageobject>
-				<imagedata fileref="images/appscreeniebig.gif" />
+				<imagedata fileref="uni/warsportsnet/images/appscreeniebig.gif" />
 			</imageobject>
 			<textobject>
 				<phrase>Screenshot of the Application</phrase>

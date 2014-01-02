@@ -9,7 +9,14 @@
 	<para>BitRot Media Player is an application that translates the process
 		of degradation from the actual to the virtual.
 	</para>
-	<imagedata fileref="images/bitrotsmall.jpg" />
+	<mediaobject>
+		<imageobject>
+			<imagedata fileref="uni/bitrot/images/bitrotsmall.jpg" />
+		</imageobject>
+		<textobject>
+			<phrase>Screenshot of the Application</phrase>
+		</textobject>
+	</mediaobject>
 	<para>Media such as vinyl and magnetic tape all had their flaws. By
 		storing data in analogue form on analogue media, degradation begins to
 		distort and fragment content. Digital media such as CD's are reputed

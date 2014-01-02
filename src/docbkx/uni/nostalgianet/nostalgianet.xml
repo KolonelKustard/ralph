@@ -6,7 +6,14 @@
 	<info>
 		<title>Nostalgia Network</title>
 	</info>
-	<imagedata fileref="images/dragon32.jpg" />
+	<mediaobject>
+		<imageobject>
+			<imagedata fileref="uni/nostalgianet/images/dragon32.jpg" />
+		</imageobject>
+		<textobject>
+			<phrase>Dragon 32 Home Computer</phrase>
+		</textobject>
+	</mediaobject>
 	<para>
 		My first ever computer was a Dragon 32. This machine was only
 		ever capable of the most simple tasks, but had the unforgettable
@@ -83,7 +90,14 @@
 		<para>Once set up, the process is begun by human input starting off a
 			conversation. Type a topic into the input text box and press return.
 			This starts a conversation between the two machines.</para>
-		<imagedata fileref="images/screenie1.gif" />
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="uni/nostalgianet/images/screenie1.gif" />
+			</imageobject>
+			<textobject>
+				<phrase>Screenshot of the Application</phrase>
+			</textobject>
+		</mediaobject>
 		<para>The conversation is implemented by a 2-way process of audio
 			generation and reconstruction. One machine generates and plays
 			music as a notational representation of text. The other machine
@@ -114,7 +128,7 @@
 			rendition of the same performance.</para>
 		<mediaobject>
 			<imageobject>
-				<imagedata fileref="images/resultsbig.gif" />
+				<imagedata fileref="uni/nostalgianet/images/resultsbig.gif" />
 			</imageobject>
 			<textobject>
 				<phrase>Screenshot of Nostalgia Network Application</phrase>
@@ -130,7 +144,7 @@
 			the same audio from MP3 format on the downloads page.</para>
 		<mediaobject>
 			<audioobject>
-				<audiodata fileref="results.mp3" format="audio/mp3" />
+				<audiodata fileref="uni/nostalgianet/results.mp3" format="audio/mp3" />
 			</audioobject>
 			<textobject>
 				<phrase>See <xref linkend="song" /> for a transcript</phrase>

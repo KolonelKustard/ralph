@@ -12,7 +12,14 @@
 		they are added to the database and enlisted to take part in the Free
 		CGI-UK project.
 	</para>
-	<imagedata fileref="images/screenshot1.gif" />
+	<mediaobject>
+		<imageobject>
+			<imagedata fileref="uni/freecgiuk/images/screenshot1.gif" />
+		</imageobject>
+		<textobject>
+			<phrase>Screenshot of the Application</phrase>
+		</textobject>
+	</mediaobject>
 	<para>The project aims to attack current mis-conceptions of Free.
 		Nothing is truely free. 2 for the price of 1 inevitably means another
 		item becomes more expensive. Free web space means forced advertising.
@@ -97,7 +104,14 @@
 			and registers their interest for the service, filling in address and
 			phone number.
 		</para>
-		<imagedata fileref="images/screenshot1.gif" />
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="uni/freecgiuk/images/screenshot1.gif" />
+			</imageobject>
+			<textobject>
+				<phrase>Screenshot of the Application</phrase>
+			</textobject>
+		</mediaobject>
 		<para>These details are then added to a database and used later by the
 			telephone application.
 		</para>
@@ -142,7 +156,7 @@
 		</para>
 		<mediaobject>
 			<imageobject>
-				<imagedata fileref="images/phoneappbig.jpg" format="JPG" />
+				<imagedata fileref="uni/freecgiuk/images/phoneappbig.jpg" format="JPG" />
 			</imageobject>
 			<caption>
 				<para>The phone app</para>
@@ -150,7 +164,7 @@
 		</mediaobject>
 		<mediaobject>
 			<imageobject>
-				<imagedata fileref="images/commappbig.jpg" format="JPG" />
+				<imagedata fileref="uni/freecgiuk/images/commappbig.jpg" format="JPG" />
 			</imageobject>
 			<caption>
 				<para>The Communications App</para>
