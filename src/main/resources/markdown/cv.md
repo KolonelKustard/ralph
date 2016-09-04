@@ -17,7 +17,7 @@
 
 ## Professional Experience
 
-### Software Engineer at Expedia, London *May 2013 to present*
+### Senior Software Engineer at Expedia, London *May 2013 to present*
 * Developing for the web using Java, Scala, Ruby, HTML and JavaScript.
 * Leveraging frameworks and tools including but not limited to Spring MVC, Gradle, Mockito, Backbone.js and
   Handlebars.js.
@@ -97,6 +97,7 @@
 ### More…
 * Please see my portfolio <http://www.totalchange.com/ralph/>.
 
+
 ## Education/Qualifications
 
 ### Oracle Certified Master, Java SE6 Developer (OCMJD) *Sep. 2012*
@@ -115,7 +116,8 @@ A levels. Media Studies: B; Computing: C; Geography: D
 ### Queensbridge School, Moseley, Birmingham *Sep. 1990 to Jun. 1995*
 GCSE's. 5 A's, 4 B's, 1 C.
 
-### Interests
+
+## Interests
 I enjoy a variety of sports and activities including surfing, CrossFit, badminton and tennis. I like to participate in a
 variety of open source projects. Quiet time usually consists of reading the paper or a good book, watching a good film
 or playing the piano.
