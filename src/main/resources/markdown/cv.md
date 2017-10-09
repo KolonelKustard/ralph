@@ -18,6 +18,7 @@
 ## Professional Experience
 
 ### Senior Software Engineer at Expedia, London *May 2013 to present*
+
 I lead a global team spread between Seattle, Chicago, London, Hungary and Delhi. We deliver a suite of libraries and
 tools used by Expedia for analytics and experimentation (A/B testing).
 
@@ -41,11 +42,14 @@ maintaining a strong relationship with the needs of the business. It's my job to
 detached from their place in Expedia's success.
 
 ### Travelling, Worldwide *Apr. 2012 to May 2013*
-* Taking a career break exploring Europe in a campervan and backpacking in Morocco and South America.
-* Learnt best practices for Spring, GWT, JPA and JMS in an all requests online radio project where broadcasts coincide
-  with the end of the working week.
+
+My wife and I took a career break exploring Europe in a campervan and backpacking in Morocco and South America.
+
+Along the way I learnt best practices for Spring, GWT, JPA and JMS in an all requests online radio project where
+broadcasts coincide with the end of the working week.
 
 ## Production Manager at GOSS Interactive, Plymouth *Jan. 2004 to Apr. 2012*
+
 * Designed, developed and delivered high-profile, enterprise-scale web applications in Java, ASP.NET and ColdFusion,
   frequently underpinned by GOSS’s Content Management System, iCM.
 * Managed the diverse requirements of over 80 public and private sector clients. Delivered numerous award winning
@@ -70,39 +74,43 @@ detached from their place in Expedia's success.
   opportunities and risks for the Company.
 
 ### Software Developer at Richfords Fire & Flood, Redruth *Oct. 2001 to Jan. 2004*
-* Employed on a Teaching Company Scheme (renamed Knowledge Transfer Partnerships) with the University of Plymouth.
-* Updated the Company's legacy MS-DOS/Paradox based software to a modern Windows client/server application.
-* Desktop application development using Delphi, server-side development using J2EE 1.4 and mobile development using
-  Annoto digital pen technology.
+
+Employed on a Teaching Company Scheme (renamed Knowledge Transfer Partnerships) with the University of Plymouth.
+
+Updated the Company's legacy MS-DOS/Paradox based software to a modern Windows client/server application.
+
+Desktop application development using Delphi, server-side development using J2EE 1.4 and mobile development using Annoto
+digital pen technology.
 
 ### Web Developer at Tell Communications, Plymouth *Jun. 1999 to Sep. 2000*
-* Sandwich year of BSc (hons).
-* Designing and developing dynamic web applications using classic ASP with VBScript.
+
+Sandwich year of BSc (hons). Designing and developing dynamic web applications using classic ASP with VBScript.
 
 ## Voluntary Experience
 
 ### Volunteer at Doctors of the World UK, London *Sept. 2013 to present*
-* Installing, configuring and maintaining a CRM solution to digitise visitors interactions with the East London clinic.
-* Installed to Amazon’s AWS.
+
+Installing, configuring and maintaining a cloud (AWS) deployed CRM solution to digitise visitors interactions with the
+East London clinic.
 
 ### Referral Panel Chair at Youth Offending Team, Plymouth *Feb. 2009 to Apr. 2012*
-* Volunteer chair of referral panels for the Plymouth branch of the Youth Offending Service. Referral orders are a form
-  of restorative justice issued by the court for first time offenders aged 17 and under. Panel members represent the
-  community and draw up a contract to which the young person must comply or return to court to face sentencing.
+
+Volunteer chair of referral panels for the Plymouth branch of the Youth Offending Service. Referral orders are a form of
+restorative justice issued by the court for first time offenders aged 17 and under. Panel members represent the
+community and draw up a contract to which the young person must comply or return to court to face sentencing.
 
 
 ## Personal Experience
 
-### BrowBaby
-* An iOS app developed in Objective-C to allow mothers to augment adorable photo’s of their babies with eyebrows.
+### DiscoDJ 
 
-### DiscoDJ
-* Developed for my wedding DiscoDJ allows the audience to request their choice of song to the playlist.
-* Importantly only contained the music my wife and I wanted to dance to.
-* Worked offline in a barn in the middle of nowhere.
+Developed for my wedding DiscoDJ allows the audience to request their choice of song to the playlist. Importantly the
+source playlist only contained the music my wife and I wanted to dance to. It is designed to work offline in a barn in
+the middle of nowhere.
 
 ### More…
-* Please see my portfolio <http://www.totalchange.com/ralph/>.
+
+Please see my portfolio <http://www.totalchange.com/ralph/portfolio/>.
 
 
 ## Education/Qualifications
@@ -125,6 +133,7 @@ GCSE's. 5 A's, 4 B's, 1 C.
 
 
 ## Interests
+
 I enjoy a variety of sports and activities including surfing, CrossFit, badminton and tennis. I like to participate in a
 variety of open source projects. Quiet time usually consists of reading the paper or a good book, watching a good film
 or playing the piano.
