@@ -18,20 +18,27 @@
 ## Professional Experience
 
 ### Senior Software Engineer at Expedia, London *May 2013 to present*
-* Developing for the web using Java, Scala, Ruby, HTML and JavaScript.
-* Leveraging frameworks and tools including but not limited to Spring MVC, Gradle, Mockito, Backbone.js and
-  Handlebars.js.
-* Behaviour-driven development using Cucumber for automation and ScalaTest or TestNG for integration and unit testing.
-* Developing using a domain-driven design approach.
-* Developing all features in the dark using A/B testing in a continuously delivered application.
-* A hybrid role covering test, server-side and client-side engineering.
-* Pairing on all stories.
-* Working as a senior member of an agile Kanban based team for all Expedia and Travelocity branded websites.
-* Ensuring all code delivered is suitable for localisation for all points of sale.
-* Ensuring all solutions scale to meet the incredible demands placed upon them.
-* Collaborating with teams worldwide including the US, Hungary, India and China.
-* Diagnosing and resolving live site and SOAK analysed issues using tools such as Splunk and Tealeaf.
-* Ensuring all code delivered is secure and working with security teams to maintain PCI compliance.
+I lead a global team spread between Seattle, Chicago, London, Hungary and Delhi. We deliver a suite of libraries and
+tools used by Expedia for analytics and experimentation (A/B testing).
+
+We supply an elegant and simple to use SDK for the engineering teams to capture over 10,000 user interactions per
+second. Our tooling publishes this click-stream data is internally to realtime Kafka based streams and S3 based
+buckets for batch processing. The internal data then drives a variety of external systems such as Adobe Analytics
+(Omniture). We further enrich the data in the pipeline adding key metrics such as cross device identification.
+
+Additionally we provide tools for teams to deliver feature gates and A/B tests processing over 70,000 experiment
+exposures a second. Taking responsiblity for the entire experiment lifecycle our tools also analyse the results of those
+experiments in a near-realtime dashboard.
+
+As a senior engineer I enjoy delivering elegant, simple to use and understand solutions designed to work at scale.
+Whilst having a focus on being an all-rounder I am able to pick up new programming languages and frameworks very
+rapidly. At present I spend most of my time in Scala, Java and JavaScript whilst using Spark, Storm, Spring, Git, CI/CD,
+DynamoDB, MongoDB and too many other tools to list.
+
+As a manager of a global engineering team I rely on my team to deliver our vision. By enocuraging ownership and autonomy
+my focus is to help steer the team toward success and grow each individual toward their goals. Key to our success is
+maintaining a strong relationship with the needs of the business. It's my job to make sure the rest of the team are not
+detached from their place in Expedia's success.
 
 ### Travelling, Worldwide *Apr. 2012 to May 2013*
 * Taking a career break exploring Europe in a campervan and backpacking in Morocco and South America.
