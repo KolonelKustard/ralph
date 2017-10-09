@@ -19,6 +19,9 @@
 						<li>
 							<a href="../">Home</a>
 						</li>
+						<li>
+							<a href="../cv.html">CV</a>
+						</li>
 						<li class="active">
 							<a href="portfolio.html">Portfolio</a>
 						</li>
