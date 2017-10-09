@@ -81,6 +81,7 @@
 							<cssSourceDir>./</cssSourceDir>
 							<cssSourceFiles>
 								<cssSourceFile>index.css</cssSourceFile>
+								<cssSourceFile>cv.css</cssSourceFile>
 								<cssSourceFile>shared.css</cssSourceFile>
 							</cssSourceFiles>
 							<cssFinalFile>styles.css</cssFinalFile>
@@ -102,6 +103,25 @@
 						<goals>
 							<goal>minify</goal>
 						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>com.vladsch.flexmark</groupId>
+				<artifactId>markdown-page-generator-plugin</artifactId>
+				<version>0.22.14</version>
+				<executions>
+					<execution>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}/${project.build.finalName}/</outputDirectory>
+							<headerHtmlFile>${project.basedir}/src/main/resources/markdown/html/header.html</headerHtmlFile>
+							<footerHtmlFile>${project.basedir}/src/main/resources/markdown/html/footer.html</footerHtmlFile>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>
