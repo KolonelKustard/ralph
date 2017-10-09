@@ -73,6 +73,7 @@ digital pen technology.
 
 Sandwich year of BSc (hons). Designing and developing dynamic web applications using classic ASP with VBScript.
 
+
 ## Voluntary Experience
 
 ### Volunteer at Doctors of the World UK, London *Sept. 2013 to present*
