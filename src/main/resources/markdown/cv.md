@@ -2,7 +2,7 @@
 
 **Address:** London, UK  
 **Tel:** Available upon request  
-**Email:** <RalphJones@totalchange.com>  
+**Email:** [RalphJones@totalchange.com](mailto:RalphJones@totalchange.com)  
 **Web:** <http://www.totalchange.com/ralph/>  
 
 
@@ -13,11 +13,12 @@
 * Adaptable to industry evolution.
 * Comfortable designing, diagnosing and navigating large, complex systems.
 * A competent and trustable leader as well as a dependable team member.
+* Presenting to clients, peers, etc.
 
 
 ## Professional Experience
 
-### Senior Software Engineer at Expedia, London *May 2013 to present*
+### Senior Software Engineer and Manager at Expedia, London *May 2013 to present*
 
 I lead a global team spread between Seattle, Chicago, London, Hungary and Delhi. We deliver a suite of libraries and
 tools used by Expedia for analytics and experimentation (A/B testing).
@@ -43,41 +44,27 @@ detached from their place in Expedia's success.
 
 ### Travelling, Worldwide *Apr. 2012 to May 2013*
 
-My wife and I took a career break exploring Europe in a campervan and backpacking in Morocco and South America.
-
-Along the way I learnt best practices for Spring, GWT, JPA and JMS in an all requests online radio project where
-broadcasts coincide with the end of the working week.
+My wife and I took a career break exploring Europe in a campervan and backpacking in Morocco and South America. Along
+the way I learnt best practices for Spring, GWT, JPA and JMS in an all requests online radio project where broadcasts
+coincide with the end of the working week. See <https://sourceforge.net/projects/jizz/>.
 
 ## Production Manager at GOSS Interactive, Plymouth *Jan. 2004 to Apr. 2012*
 
-* Designed, developed and delivered high-profile, enterprise-scale web applications in Java, ASP.NET and ColdFusion,
-  frequently underpinned by GOSS’s Content Management System, iCM.
-* Managed the diverse requirements of over 80 public and private sector clients. Delivered numerous award winning
-  solutions. Instrumental in a client achieving a saving of £7,000,000 by channel shifting 75% of bookings online.
-* Led a multi-disciplined department made up of teams of Project Managers, Software Developers, Front End Web
-  Developers, Graphic Designers and Testers.
-* Increased production levels with fewer staff to improve competitiveness and maintain growth despite adverse market
-  conditions.
-* Encouraged technological innovation enabling delivery of cutting-edge applications and ensuring competitiveness for
-  GOSS’s clients. For example using multi-variant testing, creating rich user interfaces, targeting multiple devices
-  (e.g. touchscreen and mobile), publishing data semantically and implementing faceted search based navigation.
-* Improved quality and increased client satisfaction by introducing good working practices such as test-driven
-  development, continuous integration, agile software development, peer reviews and effective version control.
-* Designed and implemented complex high demand, highly available, load balanced network infrastructures in both the
-  Company’s and clients own data centres. Developed for and deployed to Windows, Linux and Solaris based installations.
-* Skilled in all aspects of the software development lifecycle including designing, building, testing, documenting,
-  releasing, training, supporting and maintaining a new product for a client.
-* Presented to clients at pitches, online webinars and user groups. Worked closely with Sales staff and Account
-  Managers to provide tender responses, produce estimates and maintain client relationships. Capable of adjusting the
-  complexity of a presentation or answer to suit an audience.
-* Core member of the Company’s management team providing regular performance updates as well as identifying
-  opportunities and risks for the Company.
+I led a multi-disciplined department made up of Project Managers, Software Developers, Front End Web Developers, Graphic
+Designers and Testers. Together we designed, developed and delivered high-profile, enterprise-scale web applications in
+Java, ASP.NET and ColdFusion, frequently underpinned by GOSS’s Content Management System, iCM.
+
+Managed the diverse requirements of over 80 public and private sector clients. Delivered numerous award winning
+solutions and instrumental in a client achieving a saving of £7,000,000 by channel shifting 75% of bookings online.
+
+Introduced Agile working practises enabling delivery of cutting-edge applications and ensuring competitiveness for
+GOSS’s clients. Designed and implemented complex high demand, highly available, load balanced network infrastructures.
+Developed for and deployed to Windows, Linux and Solaris based installations.
 
 ### Software Developer at Richfords Fire & Flood, Redruth *Oct. 2001 to Jan. 2004*
 
-Employed on a Teaching Company Scheme (renamed Knowledge Transfer Partnerships) with the University of Plymouth.
-
-Updated the Company's legacy MS-DOS/Paradox based software to a modern Windows client/server application.
+Employed on a Teaching Company Scheme (renamed Knowledge Transfer Partnerships) with the University of Plymouth to
+update the Company's legacy MS-DOS/Paradox based software to a modern Windows client/server application.
 
 Desktop application development using Delphi, server-side development using J2EE 1.4 and mobile development using Annoto
 digital pen technology.
