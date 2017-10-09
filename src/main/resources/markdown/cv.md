@@ -48,7 +48,7 @@ My wife and I took a career break exploring Europe in a campervan and backpackin
 the way I learnt best practices for Spring, GWT, JPA and JMS in an all requests online radio project where broadcasts
 coincide with the end of the working week. See <https://sourceforge.net/projects/jizz/>.
 
-## Production Manager at GOSS Interactive, Plymouth *Jan. 2004 to Apr. 2012*
+### Production Manager at GOSS Interactive, Plymouth *Jan. 2004 to Apr. 2012*
 
 I led a multi-disciplined department made up of Project Managers, Software Developers, Front End Web Developers, Graphic
 Designers and Testers. Together we designed, developed and delivered high-profile, enterprise-scale web applications in
