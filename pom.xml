@@ -81,6 +81,7 @@
 							<cssSourceDir>./</cssSourceDir>
 							<cssSourceFiles>
 								<cssSourceFile>index.css</cssSourceFile>
+								<cssSourceFile>cv.css</cssSourceFile>
 								<cssSourceFile>shared.css</cssSourceFile>
 							</cssSourceFiles>
 							<cssFinalFile>styles.css</cssFinalFile>

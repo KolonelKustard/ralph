@@ -3,17 +3,15 @@
 **Address:** London, UK  
 **Tel:** Available upon request  
 **Email:** [RalphJones@totalchange.com](mailto:RalphJones@totalchange.com)  
-**Web:** <http://www.totalchange.com/ralph/>  
+**Web:** <http://www.totalchange.com/ralph/> 
 
-
-## Key Skills
-
-* A wide variety of programming languages, platforms, tools and software design best practices.
-* An expert Java and web software developer.
-* Adaptable to industry evolution.
-* Comfortable designing, diagnosing and navigating large, complex systems.
-* A competent and trustable leader as well as a dependable team member.
-* Presenting to clients, peers, etc.
+* A wide variety of programming languages, platforms, tools and software design best practices
+* An expert Java, web and data software engineer
+* Adaptable to industry evolution
+* Comfortable navigating large, complex systems
+* Keen to understand the bigger picture
+* A competent and trustable leader as well as a dependable team member
+* Good at presenting to large groups
 
 
 ## Professional Experience
@@ -92,9 +90,9 @@ community and draw up a contract to which the young person must comply or return
 
 ### DiscoDJ 
 
-Developed for my wedding DiscoDJ allows the audience to request their choice of song to the playlist. Importantly the
+Developed for my wedding, DiscoDJ allows the audience to request their choice of song to the playlist. Importantly the
 source playlist only contained the music my wife and I wanted to dance to. It is designed to work offline in a barn in
-the middle of nowhere.
+the middle of nowhere. See <https://github.com/KolonelKustard/discodj>.
 
 ### More…
 
