@@ -1,0 +1,23 @@
+{
+  "name": "ralph",
+  "version": "1.0.0",
+  "description": "Ralph Wynne Jones =================",
+  "main": "index.js",
+  "scripts": {
+    "build": "md-to-pdf --stylesheet md-to-pdf.css --pdf-options '{ \"format\": \"A4\", \"margin\": \"25mm\" }' src/main/resources/markdown/cv.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KolonelKustard/ralph.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KolonelKustard/ralph/issues"
+  },
+  "homepage": "https://github.com/KolonelKustard/ralph#readme",
+  "devDependencies": {
+    "md-to-pdf": "^3.2.1"
+  }
+}
