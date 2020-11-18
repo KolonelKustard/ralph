@@ -13,11 +13,21 @@
 
 	<xsl:template name="user.head.content">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="./styles.min.css" />
 		<link rel="shortcut icon" href="../images/favicon.ico" />
-		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js" />
-		<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js" />
+		<script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js" />
+		<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js" />
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async="true" src="https://www.googletagmanager.com/gtag/js?id=UA-40234795-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-40234795-1');
+		</script>
 	</xsl:template>
 	
 	<xsl:template name="body.attributes">
