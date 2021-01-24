@@ -3,5 +3,6 @@
 /.classpath
 /.idea
 /*.iml
+/node_modules
 /target
 .DS_Store
