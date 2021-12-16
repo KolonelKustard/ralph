@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/KolonelKustard/ralph#readme",
   "devDependencies": {
-    "md-to-pdf": "^3.2.1"
+    "md-to-pdf": "^5.0.0"
   }
 }
